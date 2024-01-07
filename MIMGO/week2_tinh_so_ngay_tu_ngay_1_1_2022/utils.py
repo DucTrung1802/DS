@@ -1,18 +1,22 @@
 def numberOfDays(day, month):
-    kaka_dictionary = {
-        1: 31,
-        2: 28,
-        3: 31,
-        4: 30,
-        5: 31,
-        6: 30,
-        7: 31,
-        8: 31,
-        9: 30,
-        10: 31,
-        11: 30,
-        12: 31,
-    }
+    month_list_2022 = [
+        31,
+        28,
+        31,
+        30,
+        31,
+        30,
+        31,
+        31,
+        30,
+        31,
+        30,
+        31,
+    ]
 
     if month == 1:
-        
+        return day - 1
+    return sum(month_list_2022[: month - 1]) + day - 1
+
+
+# print(numberOfDays(14, 2))
