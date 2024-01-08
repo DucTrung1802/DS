@@ -1,4 +1,19 @@
+from enum import Enum
+
+
+class Roles(Enum):
+    STAFF = 1
+    TECHNICIAN = 2
+    EXPERT = 3
+
+
 class employee:
+    __working_hours_thresholds: list = [0, 100, 200]
+    __working_hours_bonus_thresholds: list = [0, 10, 20]
+    __exp_thresholds: list = [0, 2, 5]
+    __exp_bonus_thresholds: list = [0, 25, 50]
+    __income_rate_thresholds: list = [0, 1.2, 1.5, 2]
+
     def __init__(
         self,
         name: str,
@@ -18,10 +33,47 @@ class employee:
         self.working_hours: int = working_hours
 
     def get_bonus(self):
-        pass
+        self.__overtime_bonus = 0
+        self.__exp_bonus = 0
+
+        # Overtime bonus
+        if (
+            self.__working_hours_thresholds[0]
+            <= self.working_hours
+            <= self.__working_hours_thresholds[1]
+        ):
+            self.__overtime_bonus = (
+                self.basic_salary * self.__working_hours_bonus_thresholds[0]
+            )
+        elif (
+            self.__working_hours_thresholds[1]
+            < self.__working_hours
+            <= self.__working_hours_thresholds[2]
+        ):
+            self.__overtime_bonus = (
+                self.basic_salary * self.__working_hours_bonus_thresholds[1]
+            )
+        elif self.__working_hours_thresholds[2] < self.__working_hours:
+            self.__overtime_bonus = (
+                self.basic_salary * self.__working_hours_bonus_thresholds[2]
+            )
+
+        # Exp bonus
+        if self.__exp_thresholds[0] <= self.working_hours <= self.__exp_thresholds[1]:
+            self.__exp_bonus = self.basic_salary * self.__exp_bonus_thresholds[0]
+        elif (
+            self.__exp_thresholds[1] < self.__working_hours <= self.__exp_thresholds[2]
+        ):
+            self.__exp_bonus = self.basic_salary * self.__exp_bonus_thresholds[1]
+        elif self.__exp_thresholds[2] < self.__working_hours:
+            self.__exp_bonus = self.basic_salary * self.__exp_bonus_thresholds[2]
+
+        return self.__overtime_bonus + self.__exp_bonus
 
     def get_income(self):
-        pass
+        self.__income = 0
+        if (0 <= self.exp <= 3):
+            
 
     def __str__(self):
         return (
