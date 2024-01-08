@@ -1,0 +1,10 @@
+Nguyen Van A
+30
+Ha Noi
+expert 6 300
+10000000
+Nguyen Van B
+28
+Ha Nam
+staff 5 250
+8000000

@@ -1,3 +1,4 @@
+import os
 from enum import Enum
 
 
@@ -71,9 +72,17 @@ class employee:
         return self.__overtime_bonus + self.__exp_bonus
 
     def get_income(self):
-        self.__income = 0
-        if (0 <= self.exp <= 3):
-            
+        self.__role_income = 0
+        if self.role == Roles.EXPERT:
+            self.__role_income = self.basic_salary * self.__income_rate_thresholds[3]
+        elif self.role == Roles.TECHNICIAN:
+            self.__role_income = self.basic_salary * self.__income_rate_thresholds[2]
+        elif self.role == Roles.STAFF and (self.exp > 3):
+            self.__role_income = self.basic_salary * 1.2
+        elif self.role == Roles.STAFF and (0 <= self.exp <= 3):
+            self.__role_income = self.basic_salary
+
+        return self.__role_income + self.get_bonus()
 
     def __str__(self):
         return (
@@ -94,7 +103,10 @@ class employee:
 
 
 class employee_management:
+    
+
     def __init__(self):
+        self.__format_steps = 5
         self.employees = self.read_data("employee_input.txt")
 
     def print_infos(self):
@@ -102,10 +114,33 @@ class employee_management:
             print(self.employees[i])
 
     def read_data(self, file_name):
-        pass
+        """
+        Form of .txt file
+
+        name
+        age
+        address
+        role exp working_hours
+        basic_salary
+
+        """
+
+        if not os.path.isfile(file_name):
+            raise Exception('File "{}" does not exist!'.format(file_name))
+
+        with open(file_name, "r") as f:
+            contents = f.readlines()
+            for i in range(0,len(contents),self.__format_steps):
+                name = contents[i].rstrip()
+                print(name)
+
+
 
     def sort_by_income(self):
         pass
 
     def get_max_income(self, employee1):
         pass
+
+
+employee_management_system = employee_management()
