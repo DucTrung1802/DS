@@ -71,13 +71,13 @@ class employee:
 
     def get_income(self):
         self.__role_income = 0
-        if self.role == Roles.EXPERT:
+        if self.role == Roles.EXPERT.value:
             self.__role_income = self.basic_salary * self.__income_rate_thresholds[3]
-        elif self.role == Roles.TECHNICIAN:
+        elif self.role == Roles.TECHNICIAN.value:
             self.__role_income = self.basic_salary * self.__income_rate_thresholds[2]
-        elif self.role == Roles.STAFF and (self.exp >= 3):
+        elif self.role == Roles.STAFF.value and (self.exp >= 3):
             self.__role_income = self.basic_salary * 1.2
-        elif self.role == Roles.STAFF and (0 <= self.exp < 3):
+        elif self.role == Roles.STAFF.value and (0 <= self.exp < 3):
             self.__role_income = self.basic_salary
 
         return self.__role_income + self.get_bonus()
@@ -156,10 +156,13 @@ class employee_management:
 
 
 # employee_management_system = employee_management()
-# # employee_management_system.print_infos()
+# employee_management_system.print_infos()
 
 # employee_management_system.sort_by_income()
 # employee_management_system.print_infos()
 
 # test_employee = employee("Trung", "23", "Ha Noi", "staff", 1000000, 1, 100)
 # print(employee_management_system.get_max_income(test_employee))
+
+# print(employee_management_system.employees[0])
+# print(employee_management_system.employees[0].get_income())
