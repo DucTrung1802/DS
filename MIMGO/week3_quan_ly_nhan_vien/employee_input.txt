@@ -1,10 +1,55 @@
-Nguyen Van A
-30
-Ha Noi
-expert 6 300
-10000000
-Nguyen Van B
+Nguyen Van A3
+32
+Ha Tinh
+expert 2 150
+12000000.0
+Nguyen Van C2
+29
+Nghe An
+technician 2 150
+20000000.0
+Nguyen Van A4
+33
+Hai Phong
+expert 5 50
+12000000.0
+Nguyen Van B2
+26
+Quang Ninh
+staff 3 150
+9000000.0
+Nguyen Van B1
 28
 Ha Nam
 staff 5 250
-8000000
+8000000.0
+Nguyen Van B2
+23
+Long An
+staff 3 250
+8500000.0
+Nguyen Van B3
+24
+Son La
+staff 8 80
+9000000.0
+Nguyen Van C3
+29
+Quang Ninh
+technician 5 60
+22000000.0
+Nguyen Van A1
+30
+Ha Noi
+expert 6 300
+10000000.0
+Nguyen Van C1
+25
+Vinh Phuc
+technician 6 250
+15000000.0
+Nguyen Van A2
+31
+Ha Nam
+expert 5 200
+85000000.0
