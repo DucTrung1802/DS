@@ -76,7 +76,7 @@ class employee:
         elif self.role == Roles.TECHNICIAN.value:
             self.__role_income = self.basic_salary * self.__income_rate_thresholds[2]
         elif self.role == Roles.STAFF.value and (self.exp >= 3):
-            self.__role_income = self.basic_salary * 1.2
+            self.__role_income = self.basic_salary * self.__income_rate_thresholds[1]
         elif self.role == Roles.STAFF.value and (0 <= self.exp < 3):
             self.__role_income = self.basic_salary
 
@@ -145,7 +145,7 @@ class employee_management:
             return employee_list
 
     def sort_by_income(self):
-        self.employees = sorted(self.employees, key=lambda x: x.basic_salary)
+        self.employees = sorted(self.employees, key=lambda x: x.get_income())
 
     def get_max_income(self, employee1: employee):
         same_role_list = [emp for emp in self.employees if emp.role == employee1.role]
