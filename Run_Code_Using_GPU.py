@@ -27,3 +27,5 @@ if __name__=="__main__":
 	start = timer()
 	func2(a)
 	print("with GPU:", timer()-start)
+
+
