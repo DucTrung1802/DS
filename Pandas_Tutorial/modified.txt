@@ -1,0 +1,801 @@
+#	Name	Type 1	Type 2	Legendary	Total	HP	Attack	Defense	Sp. Atk	Sp. Def	Speed	Generation
+1	Bulbasaur	Grass	Poison	Test 2	591	45	49	49	65	65	45	Test 1
+2	Ivysaur	Grass	Poison	Test 2	750	60	62	63	80	80	60	Test 1
+3	Venusaur	Grass	Poison	Test 2	970	80	82	83	100	100	80	Test 1
+3	VenusaurMega Venusaur	Grass	Poison	Test 2	1170	80	100	123	122	120	80	Test 1
+4	Charmander	Fire		Test 2	553	39	52	43	60	50	65	Test 1
+5	Charmeleon	Fire		Test 2	730	58	64	58	80	65	80	Test 1
+6	Charizard	Fire	Flying	Test 2	968	78	84	78	109	85	100	Test 1
+6	CharizardMega Charizard X	Fire	Dragon	Test 2	1168	78	130	111	130	85	100	Test 1
+6	CharizardMega Charizard Y	Fire	Flying	Test 2	1168	78	104	78	159	115	100	Test 1
+7	Squirtle	Water		Test 2	585	44	48	65	50	64	43	Test 1
+8	Wartortle	Water		Test 2	752	59	63	80	65	80	58	Test 1
+9	Blastoise	Water		Test 2	982	79	83	100	85	105	78	Test 1
+9	BlastoiseMega Blastoise	Water		Test 2	1182	79	103	120	135	115	78	Test 1
+10	Caterpie	Bug		False	345	45	30	35	20	20	45	1
+11	Metapod	Bug		False	380	50	20	55	25	25	30	1
+12	Butterfree	Bug	Flying	Test 2	720	60	45	50	90	80	70	Test 1
+13	Weedle	Bug	Poison	False	340	40	35	30	20	20	50	1
+14	Kakuna	Bug	Poison	False	375	45	25	50	25	25	35	1
+15	Beedrill	Bug	Poison	Test 2	715	65	90	40	45	80	75	Test 1
+15	BeedrillMega Beedrill	Bug	Poison	Test 2	845	65	150	40	15	80	145	Test 1
+16	Pidgey	Normal	Flying	False	446	40	45	40	35	35	56	1
+17	Pidgeotto	Normal	Flying	Test 2	627	63	60	55	50	50	71	Test 1
+18	Pidgeot	Normal	Flying	Test 2	857	83	80	75	70	70	101	Test 1
+18	PidgeotMega Pidgeot	Normal	Flying	Test 2	1037	83	80	80	135	80	121	Test 1
+19	Rattata	Normal		False	434	30	56	35	25	35	72	1
+20	Raticate	Normal		Test 2	729	55	81	60	50	70	97	Test 1
+21	Spearow	Normal	Flying	False	454	40	60	30	31	31	70	1
+22	Fearow	Normal	Flying	Test 2	784	65	90	65	61	61	100	Test 1
+23	Ekans	Poison		Test 2	521	35	60	44	40	54	55	Test 1
+24	Arbok	Poison		Test 2	796	60	85	69	65	79	80	Test 1
+25	Pikachu	Electric		Test 2	550	35	55	40	50	50	90	Test 1
+26	Raichu	Electric		Test 2	860	60	90	55	90	80	110	Test 1
+27	Sandshrew	Ground		Test 2	560	50	75	85	20	30	40	Test 1
+28	Sandslash	Ground		Test 2	835	75	100	110	45	55	65	Test 1
+29	Nidoran (Female)	Poison		Test 2	509	55	47	52	40	40	41	Test 1
+30	Nidorina	Poison		Test 2	674	70	62	67	55	55	56	Test 1
+31	Nidoqueen	Poison	Ground	Test 2	934	90	92	87	75	85	76	Test 1
+32	Nidoran (Male)	Poison		False	496	46	57	40	40	40	50	1
+33	Nidorino	Poison		Test 2	665	61	72	57	55	55	65	Test 1
+34	Nidoking	Poison	Ground	Test 2	925	81	102	77	85	75	85	Test 1
+35	Clefairy	Fairy		Test 2	611	70	45	48	60	65	35	Test 1
+36	Clefable	Fairy		Test 2	906	95	70	73	95	90	60	Test 1
+37	Vulpix	Fire		Test 2	533	38	41	40	50	65	65	Test 1
+38	Ninetales	Fire		Test 2	910	73	76	75	81	100	100	Test 1
+39	Jigglypuff	Normal	Fairy	Test 2	520	115	45	20	45	25	20	Test 1
+40	Wigglytuff	Normal	Fairy	Test 2	825	140	70	45	85	50	45	Test 1
+41	Zubat	Poison	Flying	False	435	40	45	35	30	40	55	1
+42	Golbat	Poison	Flying	Test 2	820	75	80	70	65	75	90	Test 1
+43	Oddish	Grass	Poison	Test 2	610	45	50	55	75	65	30	Test 1
+44	Gloom	Grass	Poison	Test 2	750	60	65	70	85	75	40	Test 1
+45	Vileplume	Grass	Poison	Test 2	930	75	80	85	110	90	50	Test 1
+46	Paras	Bug	Grass	Test 2	545	35	70	55	45	55	25	Test 1
+47	Parasect	Bug	Grass	Test 2	780	60	95	80	60	80	30	Test 1
+48	Venonat	Bug	Poison	Test 2	565	60	55	50	40	55	45	Test 1
+49	Venomoth	Bug	Poison	Test 2	810	70	65	60	90	75	90	Test 1
+50	Diglett	Ground		False	435	10	55	25	35	45	95	1
+51	Dugtrio	Ground		Test 2	690	35	80	50	50	70	120	Test 1
+52	Meowth	Normal		False	490	40	45	35	40	40	90	1
+53	Persian	Normal		Test 2	765	65	70	60	65	65	115	Test 1
+54	Psyduck	Water		Test 2	585	50	52	48	65	50	55	Test 1
+55	Golduck	Water		Test 2	915	80	82	78	95	80	85	Test 1
+56	Mankey	Fighting		Test 2	540	40	80	35	35	45	70	Test 1
+57	Primeape	Fighting		Test 2	815	65	105	60	60	70	95	Test 1
+58	Growlithe	Fire		Test 2	640	55	70	45	70	50	60	Test 1
+59	Arcanine	Fire		Test 2	1015	90	110	80	100	80	95	Test 1
+60	Poliwag	Water		Test 2	510	40	50	40	40	40	90	Test 1
+61	Poliwhirl	Water		Test 2	680	65	65	65	50	50	90	Test 1
+62	Poliwrath	Water	Fighting	Test 2	950	90	95	95	70	90	70	Test 1
+63	Abra	Psychic		Test 2	530	25	20	15	105	55	90	Test 1
+64	Kadabra	Psychic		Test 2	695	40	35	30	120	70	105	Test 1
+65	Alakazam	Psychic		Test 2	880	55	50	45	135	95	120	Test 1
+65	AlakazamMega Alakazam	Psychic		Test 2	1030	55	50	65	175	95	150	Test 1
+66	Machop	Fighting		Test 2	575	70	80	50	35	35	35	Test 1
+67	Machoke	Fighting		Test 2	765	80	100	70	50	60	45	Test 1
+68	Machamp	Fighting		Test 2	955	90	130	80	65	85	55	Test 1
+69	Bellsprout	Grass	Poison	Test 2	560	50	75	35	70	30	40	Test 1
+70	Weepinbell	Grass	Poison	Test 2	725	65	90	50	85	45	55	Test 1
+71	Victreebel	Grass	Poison	Test 2	910	80	105	65	100	70	70	Test 1
+72	Tentacool	Water	Poison	Test 2	600	40	40	35	50	100	70	Test 1
+73	Tentacruel	Water	Poison	Test 2	930	80	70	65	80	120	100	Test 1
+74	Geodude	Rock	Ground	Test 2	580	40	80	100	30	30	20	Test 1
+75	Graveler	Rock	Ground	Test 2	745	55	95	115	45	45	35	Test 1
+76	Golem	Rock	Ground	Test 2	945	80	120	130	55	65	45	Test 1
+77	Ponyta	Fire		Test 2	730	50	85	55	65	65	90	Test 1
+78	Rapidash	Fire		Test 2	895	65	100	70	80	80	105	Test 1
+79	Slowpoke	Water	Psychic	Test 2	615	90	65	65	40	40	15	Test 1
+80	Slowbro	Water	Psychic	Test 2	950	95	75	110	100	80	30	Test 1
+80	SlowbroMega Slowbro	Water	Psychic	Test 2	1150	95	75	180	130	80	30	Test 1
+81	Magnemite	Electric	Steel	Test 2	605	25	35	70	95	55	45	Test 1
+82	Magneton	Electric	Steel	Test 2	860	50	60	95	120	70	70	Test 1
+83	Farfetch'd	Normal	Flying	Test 2	644	52	65	55	58	62	60	Test 1
+84	Doduo	Normal	Flying	Test 2	545	35	85	45	35	35	75	Test 1
+85	Dodrio	Normal	Flying	Test 2	820	60	110	70	60	60	100	Test 1
+86	Seel	Water		Test 2	605	65	45	55	45	70	45	Test 1
+87	Dewgong	Water	Ice	Test 2	880	90	70	80	70	95	70	Test 1
+88	Grimer	Poison		Test 2	625	80	80	50	40	50	25	Test 1
+89	Muk	Poison		Test 2	950	105	105	75	65	100	50	Test 1
+90	Shellder	Water		Test 2	570	30	65	100	45	25	40	Test 1
+91	Cloyster	Water	Ice	Test 2	980	50	95	180	85	45	70	Test 1
+92	Gastly	Ghost	Poison	Test 2	540	30	35	30	100	35	80	Test 1
+93	Haunter	Ghost	Poison	Test 2	715	45	50	45	115	55	95	Test 1
+94	Gengar	Ghost	Poison	Test 2	890	60	65	60	130	75	110	Test 1
+94	GengarMega Gengar	Ghost	Poison	Test 2	1070	60	65	80	170	95	130	Test 1
+95	Onix	Rock	Ground	Test 2	700	35	45	160	30	45	70	Test 1
+96	Drowzee	Psychic		Test 2	614	60	48	45	43	90	42	Test 1
+97	Hypno	Psychic		Test 2	899	85	73	70	73	115	67	Test 1
+98	Krabby	Water		Test 2	600	30	105	90	25	25	50	Test 1
+99	Kingler	Water		Test 2	875	55	130	115	50	50	75	Test 1
+100	Voltorb	Electric		Test 2	560	40	30	50	55	55	100	Test 1
+101	Electrode	Electric		Test 2	820	60	50	70	80	80	140	Test 1
+102	Exeggcute	Grass	Psychic	Test 2	610	60	40	80	60	45	40	Test 1
+103	Exeggutor	Grass	Psychic	Test 2	985	95	95	85	125	65	55	Test 1
+104	Cubone	Ground		Test 2	605	50	50	95	40	50	35	Test 1
+105	Marowak	Ground		Test 2	805	60	80	110	50	80	45	Test 1
+106	Hitmonlee	Fighting		Test 2	823	50	120	53	35	110	87	Test 1
+107	Hitmonchan	Fighting		Test 2	834	50	105	79	35	110	76	Test 1
+108	Lickitung	Normal		Test 2	740	90	55	75	60	75	30	Test 1
+109	Koffing	Poison		Test 2	645	40	65	95	60	45	35	Test 1
+110	Weezing	Poison		Test 2	920	65	90	120	85	70	60	Test 1
+111	Rhyhorn	Ground	Rock	Test 2	665	80	85	95	30	30	25	Test 1
+112	Rhydon	Ground	Rock	Test 2	930	105	130	120	45	45	40	Test 1
+113	Chansey	Normal		Test 2	850	250	5	5	35	105	50	Test 1
+114	Tangela	Grass		Test 2	810	65	55	115	100	40	60	Test 1
+115	Kangaskhan	Normal		Test 2	890	105	95	80	40	80	90	Test 1
+115	KangaskhanMega Kangaskhan	Normal		Test 2	1080	105	125	100	60	100	100	Test 1
+116	Horsea	Water		Test 2	530	30	40	70	70	25	60	Test 1
+117	Seadra	Water		Test 2	795	55	65	95	95	45	85	Test 1
+118	Goldeen	Water		Test 2	577	45	67	60	35	50	63	Test 1
+119	Seaking	Water		Test 2	832	80	92	65	65	80	68	Test 1
+120	Staryu	Water		Test 2	595	30	45	55	70	55	85	Test 1
+121	Starmie	Water	Psychic	Test 2	925	60	75	85	100	85	115	Test 1
+122	Mr. Mime	Psychic	Fairy	Test 2	830	40	45	65	100	120	90	Test 1
+123	Scyther	Bug	Flying	Test 2	895	70	110	80	55	80	105	Test 1
+124	Jynx	Ice	Psychic	Test 2	815	65	50	35	115	95	95	Test 1
+125	Electabuzz	Electric		Test 2	875	65	83	57	95	85	105	Test 1
+126	Magmar	Fire		Test 2	897	65	95	57	100	85	93	Test 1
+127	Pinsir	Bug		Test 2	915	65	125	100	55	70	85	Test 1
+127	PinsirMega Pinsir	Bug	Flying	Test 2	1095	65	155	120	65	90	105	Test 1
+128	Tauros	Normal		Test 2	870	75	100	95	40	70	110	Test 1
+129	Magikarp	Water		False	320	20	10	55	15	20	80	1
+130	Gyarados	Water	Flying	Test 2	999	95	125	79	60	100	81	Test 1
+130	GyaradosMega Gyarados	Water	Dark	Test 2	1199	95	155	109	70	130	81	Test 1
+131	Lapras	Water	Ice	Test 2	1010	130	85	80	85	95	60	Test 1
+132	Ditto	Normal		Test 2	528	48	48	48	48	48	48	Test 1
+133	Eevee	Normal		Test 2	595	55	55	50	45	65	55	Test 1
+134	Vaporeon	Water		Test 2	985	130	65	60	110	95	65	Test 1
+135	Jolteon	Electric		Test 2	920	65	65	60	110	95	130	Test 1
+136	Flareon	Fire		Test 2	985	65	130	60	95	110	65	Test 1
+137	Porygon	Normal		Test 2	750	65	60	70	85	75	40	Test 1
+138	Omanyte	Rock	Water	Test 2	675	35	40	100	90	55	35	Test 1
+139	Omastar	Rock	Water	Test 2	935	70	60	125	115	70	55	Test 1
+140	Kabuto	Rock	Water	Test 2	655	30	80	90	55	45	55	Test 1
+141	Kabutops	Rock	Water	Test 2	910	60	115	105	65	70	80	Test 1
+142	Aerodactyl	Rock	Flying	Test 2	900	80	105	65	60	75	130	Test 1
+142	AerodactylMega Aerodactyl	Rock	Flying	Test 2	1080	80	135	85	70	95	150	Test 1
+143	Snorlax	Normal		Test 2	1050	160	110	65	65	110	30	Test 1
+144	Articuno	Ice	Flying	Test 2	1075	90	85	100	95	125	85	Test 1
+145	Zapdos	Electric	Flying	Test 2	1060	90	90	85	125	90	100	Test 1
+146	Moltres	Fire	Flying	Test 2	1070	90	100	90	125	85	90	Test 1
+147	Dratini	Dragon		Test 2	550	41	64	45	50	50	50	Test 1
+148	Dragonair	Dragon		Test 2	770	61	84	65	70	70	70	Test 1
+149	Dragonite	Dragon	Flying	Test 2	1120	91	134	95	100	100	80	Test 1
+150	Mewtwo	Psychic		Test 2	1230	106	110	90	154	90	130	Test 1
+150	MewtwoMega Mewtwo X	Psychic	Fighting	Test 2	1430	106	190	100	154	100	130	Test 1
+150	MewtwoMega Mewtwo Y	Psychic		Test 2	1420	106	150	70	194	120	140	Test 1
+151	Mew	Psychic		Test 2	1100	100	100	100	100	100	100	Test 1
+152	Chikorita	Grass		Test 2	591	45	49	65	49	65	45	Test 1
+153	Bayleef	Grass		Test 2	750	60	62	80	63	80	60	Test 1
+154	Meganium	Grass		Test 2	970	80	82	100	83	100	80	Test 1
+155	Cyndaquil	Fire		Test 2	553	39	52	43	60	50	65	Test 1
+156	Quilava	Fire		Test 2	730	58	64	58	80	65	80	Test 1
+157	Typhlosion	Fire		Test 2	968	78	84	78	109	85	100	Test 1
+158	Totodile	Water		Test 2	585	50	65	64	44	48	43	Test 1
+159	Croconaw	Water		Test 2	752	65	80	80	59	63	58	Test 1
+160	Feraligatr	Water		Test 2	982	85	105	100	79	83	78	Test 1
+161	Sentret	Normal		False	410	35	46	34	35	45	20	2
+162	Furret	Normal		Test 2	740	85	76	64	45	55	90	Test 1
+163	Hoothoot	Normal	Flying	False	474	60	30	30	36	56	50	2
+164	Noctowl	Normal	Flying	Test 2	814	100	50	50	76	96	70	Test 1
+165	Ledyba	Bug	Flying	False	475	40	20	30	40	80	55	2
+166	Ledian	Bug	Flying	Test 2	695	55	35	50	55	110	85	Test 1
+167	Spinarak	Bug	Poison	False	470	40	60	40	40	40	30	2
+168	Ariados	Bug	Poison	Test 2	740	70	90	70	60	60	40	Test 1
+169	Crobat	Poison	Flying	Test 2	940	85	90	80	70	80	130	Test 1
+170	Chinchou	Water	Electric	Test 2	593	75	38	38	56	56	67	Test 1
+171	Lanturn	Water	Electric	Test 2	853	125	58	58	76	76	67	Test 1
+172	Pichu	Electric		False	350	20	40	15	35	35	60	2
+173	Cleffa	Fairy		False	421	50	25	28	45	55	15	2
+174	Igglybuff	Normal	Fairy	False	405	90	30	15	40	20	15	2
+175	Togepi	Fairy		False	470	35	20	65	40	65	20	2
+176	Togetic	Fairy	Flying	Test 2	770	55	40	85	80	105	40	Test 1
+177	Natu	Psychic	Flying	Test 2	570	40	50	45	70	45	70	Test 1
+178	Xatu	Psychic	Flying	Test 2	845	65	75	70	95	70	95	Test 1
+179	Mareep	Electric		Test 2	525	55	40	40	65	45	35	Test 1
+180	Flaaffy	Electric		Test 2	685	70	55	55	80	60	45	Test 1
+181	Ampharos	Electric		Test 2	965	90	75	85	115	90	55	Test 1
+181	AmpharosMega Ampharos	Electric	Dragon	Test 2	1175	90	95	105	165	110	45	Test 1
+182	Bellossom	Grass		Test 2	930	75	80	95	90	100	50	Test 1
+183	Marill	Water	Fairy	False	460	70	20	50	20	50	40	2
+184	Azumarill	Water	Fairy	Test 2	790	100	50	80	60	80	50	Test 1
+185	Sudowoodo	Rock		Test 2	790	70	100	115	30	65	30	Test 1
+186	Politoed	Water		Test 2	930	90	75	75	90	100	70	Test 1
+187	Hoppip	Grass	Flying	False	450	35	35	40	35	55	50	2
+188	Skiploom	Grass	Flying	Test 2	600	55	45	50	45	65	80	Test 1
+189	Jumpluff	Grass	Flying	Test 2	810	75	55	70	55	95	110	Test 1
+190	Aipom	Normal		Test 2	635	55	70	55	40	55	85	Test 1
+191	Sunkern	Grass		False	330	30	30	30	30	30	30	2
+192	Sunflora	Grass		Test 2	820	75	75	55	105	85	30	Test 1
+193	Yanma	Bug	Flying	Test 2	685	65	65	45	75	45	95	Test 1
+194	Wooper	Water	Ground	False	405	55	45	45	25	25	15	2
+195	Quagsire	Water	Ground	Test 2	825	95	85	85	65	65	35	Test 1
+196	Espeon	Psychic		Test 2	940	65	65	60	130	95	110	Test 1
+197	Umbreon	Dark		Test 2	985	95	65	110	60	130	65	Test 1
+198	Murkrow	Dark	Flying	Test 2	719	60	85	42	85	42	91	Test 1
+199	Slowking	Water	Psychic	Test 2	950	95	75	80	100	110	30	Test 1
+200	Misdreavus	Ghost		Test 2	785	60	60	60	85	85	85	Test 1
+201	Unown	Psychic		Test 2	624	48	72	48	72	48	48	Test 1
+202	Wobbuffet	Psychic		Test 2	777	190	33	58	33	58	33	Test 1
+203	Girafarig	Normal	Psychic	Test 2	825	70	80	65	90	65	85	Test 1
+204	Pineco	Bug		Test 2	565	50	65	90	35	35	15	Test 1
+205	Forretress	Bug	Steel	Test 2	890	75	90	140	60	60	40	Test 1
+206	Dunsparce	Normal		Test 2	785	100	70	70	65	65	45	Test 1
+207	Gligar	Ground	Flying	Test 2	775	65	75	105	35	65	85	Test 1
+208	Steelix	Steel	Ground	Test 2	990	75	85	200	55	65	30	Test 1
+208	SteelixMega Steelix	Steel	Ground	Test 2	1190	75	125	230	55	95	30	Test 1
+209	Snubbull	Fairy		Test 2	570	60	80	50	40	40	30	Test 1
+210	Granbull	Fairy		Test 2	855	90	120	75	60	60	45	Test 1
+211	Qwilfish	Water	Poison	Test 2	775	65	95	75	55	55	85	Test 1
+212	Scizor	Bug	Steel	Test 2	935	70	130	100	55	80	65	Test 1
+212	ScizorMega Scizor	Bug	Steel	Test 2	1125	70	150	140	65	100	75	Test 1
+213	Shuckle	Bug	Rock	Test 2	1005	20	10	230	10	230	5	Test 1
+214	Heracross	Bug	Fighting	Test 2	915	80	125	75	40	95	85	Test 1
+214	HeracrossMega Heracross	Bug	Fighting	Test 2	1125	80	185	115	40	105	75	Test 1
+215	Sneasel	Dark	Ice	Test 2	745	55	95	55	35	75	115	Test 1
+216	Teddiursa	Normal		Test 2	620	60	80	50	50	50	40	Test 1
+217	Ursaring	Normal		Test 2	945	90	130	75	75	75	55	Test 1
+218	Slugma	Fire		False	480	40	40	40	70	40	20	2
+219	Magcargo	Fire	Rock	Test 2	790	50	50	120	80	80	30	Test 1
+220	Swinub	Ice	Ground	False	450	50	50	40	30	30	50	2
+221	Piloswine	Ice	Ground	Test 2	850	100	100	80	60	60	50	Test 1
+222	Corsola	Water	Rock	Test 2	725	55	55	85	65	85	35	Test 1
+223	Remoraid	Water		Test 2	535	35	65	35	65	35	65	Test 1
+224	Octillery	Water		Test 2	915	75	105	75	105	75	45	Test 1
+225	Delibird	Ice	Flying	Test 2	585	45	55	45	65	45	75	Test 1
+226	Mantine	Water	Flying	Test 2	860	65	40	70	80	140	70	Test 1
+227	Skarmory	Steel	Flying	Test 2	860	65	80	140	40	70	70	Test 1
+228	Houndour	Dark	Fire	Test 2	595	45	60	30	80	50	65	Test 1
+229	Houndoom	Dark	Fire	Test 2	905	75	90	50	110	80	95	Test 1
+229	HoundoomMega Houndoom	Dark	Fire	Test 2	1085	75	90	90	140	90	115	Test 1
+230	Kingdra	Water	Dragon	Test 2	995	75	95	95	95	95	85	Test 1
+231	Phanpy	Ground		Test 2	620	90	60	60	40	40	40	Test 1
+232	Donphan	Ground		Test 2	950	90	120	120	60	60	50	Test 1
+233	Porygon2	Normal		Test 2	970	85	80	90	105	95	60	Test 1
+234	Stantler	Normal		Test 2	845	73	95	62	85	65	85	Test 1
+235	Smeargle	Normal		False	425	55	20	35	20	45	75	2
+236	Tyrogue	Fighting		False	385	35	35	35	35	35	35	2
+237	Hitmontop	Fighting		Test 2	840	50	95	95	35	110	70	Test 1
+238	Smoochum	Ice	Psychic	Test 2	545	45	30	15	85	65	65	Test 1
+239	Elekid	Electric		Test 2	625	45	63	37	65	55	95	Test 1
+240	Magby	Fire		Test 2	647	45	75	37	70	55	83	Test 1
+241	Miltank	Normal		Test 2	880	95	80	105	40	70	100	Test 1
+242	Blissey	Normal		Test 2	1025	255	10	10	75	135	55	Test 1
+243	Raikou	Electric		Test 2	1045	90	85	75	115	100	115	Test 1
+244	Entei	Fire		Test 2	1060	115	115	85	90	75	100	Test 1
+245	Suicune	Water		Test 2	1075	100	75	115	90	115	85	Test 1
+246	Larvitar	Rock	Ground	Test 2	559	50	64	50	45	50	41	Test 1
+247	Pupitar	Rock	Ground	Test 2	769	70	84	70	65	70	51	Test 1
+248	Tyranitar	Rock	Dark	Test 2	1139	100	134	110	95	100	61	Test 1
+248	TyranitarMega Tyranitar	Rock	Dark	Test 2	1329	100	164	150	95	120	71	Test 1
+249	Lugia	Psychic	Flying	Test 2	1250	106	90	130	90	154	110	Test 1
+250	Ho-oh	Fire	Flying	Test 2	1270	106	130	90	110	154	90	Test 1
+251	Celebi	Psychic	Grass	Test 2	1100	100	100	100	100	100	100	Test 1
+252	Treecko	Grass		Test 2	550	40	45	35	65	55	70	Test 1
+253	Grovyle	Grass		Test 2	715	50	65	45	85	65	95	Test 1
+254	Sceptile	Grass		Test 2	940	70	85	65	105	85	120	Test 1
+254	SceptileMega Sceptile	Grass	Dragon	Test 2	1115	70	110	75	145	85	145	Test 1
+255	Torchic	Fire		Test 2	575	45	60	40	70	50	45	Test 1
+256	Combusken	Fire	Fighting	Test 2	755	60	85	60	85	60	55	Test 1
+257	Blaziken	Fire	Fighting	Test 2	980	80	120	70	110	70	80	Test 1
+257	BlazikenMega Blaziken	Fire	Fighting	Test 2	1160	80	160	80	130	80	100	Test 1
+258	Mudkip	Water		Test 2	580	50	70	50	50	50	40	Test 1
+259	Marshtomp	Water	Ground	Test 2	760	70	85	70	60	70	50	Test 1
+260	Swampert	Water	Ground	Test 2	1010	100	110	90	85	90	60	Test 1
+260	SwampertMega Swampert	Water	Ground	Test 2	1200	100	150	110	95	110	70	Test 1
+261	Poochyena	Dark		False	405	35	55	35	30	30	35	3
+262	Mightyena	Dark		Test 2	770	70	90	70	60	60	70	Test 1
+263	Zigzagoon	Normal		False	420	38	30	41	30	41	60	3
+264	Linoone	Normal		Test 2	740	78	70	61	50	61	100	Test 1
+265	Wurmple	Bug		False	370	45	45	35	20	30	20	3
+266	Silcoon	Bug		False	395	50	35	55	25	25	15	3
+267	Beautifly	Bug	Flying	Test 2	725	60	70	50	100	50	65	Test 1
+268	Cascoon	Bug		False	395	50	35	55	25	25	15	3
+269	Dustox	Bug	Poison	Test 2	705	60	50	70	50	90	65	Test 1
+270	Lotad	Water	Grass	False	410	40	30	30	40	50	30	3
+271	Lombre	Water	Grass	Test 2	630	60	50	50	60	70	50	Test 1
+272	Ludicolo	Water	Grass	Test 2	890	80	70	70	90	100	70	Test 1
+273	Seedot	Grass		False	410	40	40	50	30	30	30	3
+274	Nuzleaf	Grass	Dark	Test 2	620	70	70	40	60	40	60	Test 1
+275	Shiftry	Grass	Dark	Test 2	880	90	100	60	90	60	80	Test 1
+276	Taillow	Normal	Flying	False	455	40	55	30	30	30	85	3
+277	Swellow	Normal	Flying	Test 2	735	60	85	60	50	50	125	Test 1
+278	Wingull	Water	Flying	False	455	40	30	30	55	30	85	3
+279	Pelipper	Water	Flying	Test 2	795	60	50	100	85	70	65	Test 1
+280	Ralts	Psychic	Fairy	False	356	28	25	25	45	35	40	3
+281	Kirlia	Psychic	Fairy	Test 2	506	38	35	35	65	55	50	Test 1
+282	Gardevoir	Psychic	Fairy	Test 2	956	68	65	65	125	115	80	Test 1
+282	GardevoirMega Gardevoir	Psychic	Fairy	Test 2	1136	68	85	65	165	135	100	Test 1
+283	Surskit	Bug	Water	False	473	40	30	32	50	52	65	3
+284	Masquerain	Bug	Flying	Test 2	768	70	60	62	80	82	60	Test 1
+285	Shroomish	Grass		Test 2	555	60	40	60	40	60	35	Test 1
+286	Breloom	Grass	Fighting	Test 2	850	60	130	80	60	60	70	Test 1
+287	Slakoth	Normal		Test 2	530	60	60	60	35	35	30	Test 1
+288	Vigoroth	Normal		Test 2	790	80	80	80	55	55	90	Test 1
+289	Slaking	Normal		Test 2	1240	150	160	100	95	65	100	Test 1
+290	Nincada	Bug	Ground	False	492	31	45	90	30	30	40	3
+291	Ninjask	Bug	Flying	Test 2	752	61	90	45	50	50	160	Test 1
+292	Shedinja	Bug	Ghost	False	432	1	90	45	30	30	40	3
+293	Whismur	Normal		False	452	64	51	23	51	23	28	3
+294	Loudred	Normal		Test 2	672	84	71	43	71	43	48	Test 1
+295	Exploud	Normal		Test 2	912	104	91	63	91	73	68	Test 1
+296	Makuhita	Fighting		False	449	72	60	30	20	30	25	3
+297	Hariyama	Fighting		Test 2	898	144	120	60	40	60	50	Test 1
+298	Azurill	Normal	Fairy	False	360	50	20	40	20	40	20	3
+299	Nosepass	Rock		Test 2	720	30	45	135	45	90	30	Test 1
+300	Skitty	Normal		False	470	50	45	45	35	35	50	3
+301	Delcatty	Normal		Test 2	690	70	65	65	55	55	70	Test 1
+302	Sableye	Dark	Ghost	Test 2	710	50	75	75	65	65	50	Test 1
+302	SableyeMega Sableye	Dark	Ghost	Test 2	940	50	85	125	85	115	20	Test 1
+303	Mawile	Steel	Fairy	Test 2	710	50	85	85	55	55	50	Test 1
+303	MawileMega Mawile	Steel	Fairy	Test 2	910	50	105	125	55	95	50	Test 1
+304	Aron	Steel	Rock	Test 2	630	50	70	100	40	40	30	Test 1
+305	Lairon	Steel	Rock	Test 2	820	60	90	140	50	50	40	Test 1
+306	Aggron	Steel	Rock	Test 2	1010	70	110	180	60	60	50	Test 1
+306	AggronMega Aggron	Steel		Test 2	1210	70	140	230	60	80	50	Test 1
+307	Meditite	Fighting	Psychic	False	500	30	40	55	40	55	60	3
+308	Medicham	Fighting	Psychic	Test 2	740	60	60	75	60	75	80	Test 1
+308	MedichamMega Medicham	Fighting	Psychic	Test 2	920	60	100	85	80	85	100	Test 1
+309	Electrike	Electric		Test 2	525	40	45	40	65	40	65	Test 1
+310	Manectric	Electric		Test 2	845	70	75	60	105	60	105	Test 1
+310	ManectricMega Manectric	Electric		Test 2	1015	70	75	80	135	80	135	Test 1
+311	Plusle	Electric		Test 2	715	60	50	40	85	75	95	Test 1
+312	Minun	Electric		Test 2	715	60	40	50	75	85	95	Test 1
+313	Volbeat	Bug		Test 2	715	65	73	55	47	75	85	Test 1
+314	Illumise	Bug		Test 2	715	65	47	55	73	75	85	Test 1
+315	Roselia	Grass	Poison	Test 2	735	50	60	45	100	80	65	Test 1
+316	Gulpin	Poison		Test 2	564	70	43	53	43	53	40	Test 1
+317	Swalot	Poison		Test 2	879	100	73	83	73	83	55	Test 1
+318	Carvanha	Water	Dark	Test 2	545	45	90	20	65	20	65	Test 1
+319	Sharpedo	Water	Dark	Test 2	825	70	120	40	95	40	95	Test 1
+319	SharpedoMega Sharpedo	Water	Dark	Test 2	1015	70	140	70	110	65	105	Test 1
+320	Wailmer	Water		Test 2	740	130	70	35	70	35	60	Test 1
+321	Wailord	Water		Test 2	940	170	90	45	90	45	60	Test 1
+322	Numel	Fire	Ground	Test 2	575	60	60	40	65	45	35	Test 1
+323	Camerupt	Fire	Ground	Test 2	880	70	100	70	105	75	40	Test 1
+323	CameruptMega Camerupt	Fire	Ground	Test 2	1100	70	120	100	145	105	20	Test 1
+324	Torkoal	Fire		Test 2	920	70	85	140	85	70	20	Test 1
+325	Spoink	Psychic		Test 2	600	60	25	35	70	80	60	Test 1
+326	Grumpig	Psychic		Test 2	860	80	45	65	90	110	80	Test 1
+327	Spinda	Normal		Test 2	660	60	60	60	60	60	60	Test 1
+328	Trapinch	Ground		Test 2	570	45	100	45	45	45	10	Test 1
+329	Vibrava	Ground	Dragon	Test 2	610	50	70	50	50	50	70	Test 1
+330	Flygon	Ground	Dragon	Test 2	940	80	100	80	80	80	100	Test 1
+331	Cacnea	Grass		Test 2	635	50	85	40	85	40	35	Test 1
+332	Cacturne	Grass	Dark	Test 2	895	70	115	60	115	60	55	Test 1
+333	Swablu	Normal	Flying	Test 2	570	45	40	60	40	75	50	Test 1
+334	Altaria	Dragon	Flying	Test 2	900	75	70	90	70	105	80	Test 1
+334	AltariaMega Altaria	Dragon	Fairy	Test 2	1100	75	110	110	110	105	80	Test 1
+335	Zangoose	Normal		Test 2	826	73	115	60	60	60	90	Test 1
+336	Seviper	Poison		Test 2	851	73	100	60	100	60	65	Test 1
+337	Lunatone	Rock	Psychic	Test 2	810	70	55	65	95	85	70	Test 1
+338	Solrock	Rock	Psychic	Test 2	810	70	95	85	55	65	70	Test 1
+339	Barboach	Water	Ground	Test 2	516	50	48	43	46	41	60	Test 1
+340	Whiscash	Water	Ground	Test 2	876	110	78	73	76	71	60	Test 1
+341	Corphish	Water		Test 2	581	43	80	65	50	35	35	Test 1
+342	Crawdaunt	Water	Dark	Test 2	881	63	120	85	90	55	55	Test 1
+343	Baltoy	Ground	Psychic	Test 2	545	40	40	55	40	70	55	Test 1
+344	Claydol	Ground	Psychic	Test 2	925	60	70	105	70	120	75	Test 1
+345	Lileep	Rock	Grass	Test 2	687	66	41	77	61	87	23	Test 1
+346	Cradily	Rock	Grass	Test 2	947	86	81	97	81	107	43	Test 1
+347	Anorith	Rock	Bug	Test 2	635	45	95	50	40	50	75	Test 1
+348	Armaldo	Rock	Bug	Test 2	945	75	125	100	70	80	45	Test 1
+349	Feebas	Water		False	320	20	15	20	10	55	80	3
+350	Milotic	Water		Test 2	999	95	60	79	100	125	81	Test 1
+351	Castform	Normal		Test 2	770	70	70	70	70	70	70	Test 1
+352	Kecleon	Normal		Test 2	840	60	90	70	60	120	40	Test 1
+353	Shuppet	Ghost		Test 2	545	44	75	35	63	33	45	Test 1
+354	Banette	Ghost		Test 2	845	64	115	65	83	63	65	Test 1
+354	BanetteMega Banette	Ghost		Test 2	1035	64	165	75	93	83	75	Test 1
+355	Duskull	Ghost		Test 2	565	20	40	90	30	90	25	Test 1
+356	Dusclops	Ghost		Test 2	885	40	70	130	60	130	25	Test 1
+357	Tropius	Grass	Flying	Test 2	869	99	68	83	72	87	51	Test 1
+358	Chimecho	Psychic		Test 2	785	65	50	70	95	80	65	Test 1
+359	Absol	Dark		Test 2	855	65	130	60	75	60	75	Test 1
+359	AbsolMega Absol	Dark		Test 2	1015	65	150	60	115	60	115	Test 1
+360	Wynaut	Psychic		False	497	95	23	48	23	48	23	3
+361	Snorunt	Ice		Test 2	550	50	50	50	50	50	50	Test 1
+362	Glalie	Ice		Test 2	880	80	80	80	80	80	80	Test 1
+362	GlalieMega Glalie	Ice		Test 2	1060	80	120	80	120	80	100	Test 1
+363	Spheal	Ice	Water	Test 2	555	70	40	50	55	50	25	Test 1
+364	Sealeo	Ice	Water	Test 2	775	90	60	70	75	70	45	Test 1
+365	Walrein	Ice	Water	Test 2	995	110	80	90	95	90	65	Test 1
+366	Clamperl	Water		Test 2	658	35	64	85	74	55	32	Test 1
+367	Huntail	Water		Test 2	918	55	104	105	94	75	52	Test 1
+368	Gorebyss	Water		Test 2	918	55	84	105	114	75	52	Test 1
+369	Relicanth	Water	Rock	Test 2	915	100	90	130	45	65	55	Test 1
+370	Luvdisc	Water		Test 2	563	43	30	55	40	65	97	Test 1
+371	Bagon	Dragon		Test 2	550	45	75	60	40	30	50	Test 1
+372	Shelgon	Dragon		Test 2	790	65	95	100	60	50	50	Test 1
+373	Salamence	Dragon	Flying	Test 2	1100	95	135	80	110	80	100	Test 1
+373	SalamenceMega Salamence	Dragon	Flying	Test 2	1280	95	145	130	120	90	120	Test 1
+374	Beldum	Steel	Psychic	Test 2	570	40	55	80	35	60	30	Test 1
+375	Metang	Steel	Psychic	Test 2	790	60	75	100	55	80	50	Test 1
+376	Metagross	Steel	Psychic	Test 2	1130	80	135	130	95	90	70	Test 1
+376	MetagrossMega Metagross	Steel	Psychic	Test 2	1290	80	145	150	105	110	110	Test 1
+377	Regirock	Rock		Test 2	1110	80	100	200	50	100	50	Test 1
+378	Regice	Ice		Test 2	1110	80	50	100	100	200	50	Test 1
+379	Registeel	Steel		Test 2	1110	80	75	150	75	150	50	Test 1
+380	Latias	Dragon	Psychic	Test 2	1090	80	80	90	110	130	110	Test 1
+380	LatiasMega Latias	Dragon	Psychic	Test 2	1290	80	100	120	140	150	110	Test 1
+381	Latios	Dragon	Psychic	Test 2	1090	80	90	80	130	110	110	Test 1
+381	LatiosMega Latios	Dragon	Psychic	Test 2	1290	80	130	100	160	120	110	Test 1
+382	Kyogre	Water		Test 2	1250	100	100	90	150	140	90	Test 1
+382	KyogrePrimal Kyogre	Water		Test 2	1450	100	150	90	180	160	90	Test 1
+383	Groudon	Ground		Test 2	1250	100	150	140	100	90	90	Test 1
+383	GroudonPrimal Groudon	Ground	Fire	Test 2	1450	100	180	160	150	90	90	Test 1
+384	Rayquaza	Dragon	Flying	Test 2	1265	105	150	90	150	90	95	Test 1
+384	RayquazaMega Rayquaza	Dragon	Flying	Test 2	1445	105	180	100	180	100	115	Test 1
+385	Jirachi	Steel	Psychic	Test 2	1100	100	100	100	100	100	100	Test 1
+386	DeoxysNormal Forme	Psychic		Test 2	1050	50	150	50	150	50	150	Test 1
+386	DeoxysAttack Forme	Psychic		Test 2	1050	50	180	20	180	20	150	Test 1
+386	DeoxysDefense Forme	Psychic		Test 2	1110	50	70	160	70	160	90	Test 1
+386	DeoxysSpeed Forme	Psychic		Test 2	1020	50	95	90	95	90	180	Test 1
+387	Turtwig	Grass		Test 2	605	55	68	64	45	55	31	Test 1
+388	Grotle	Grass		Test 2	774	75	89	85	55	65	36	Test 1
+389	Torterra	Grass	Ground	Test 2	994	95	109	105	75	85	56	Test 1
+390	Chimchar	Fire		Test 2	557	44	58	44	58	44	61	Test 1
+391	Monferno	Fire	Fighting	Test 2	729	64	78	52	78	52	81	Test 1
+392	Infernape	Fire	Fighting	Test 2	960	76	104	71	104	71	108	Test 1
+393	Piplup	Water		Test 2	588	53	51	53	61	56	40	Test 1
+394	Prinplup	Water		Test 2	760	64	66	68	81	76	50	Test 1
+395	Empoleon	Water	Steel	Test 2	1000	84	86	88	111	101	60	Test 1
+396	Starly	Normal	Flying	False	430	40	55	30	30	30	60	4
+397	Staravia	Normal	Flying	Test 2	600	55	75	50	40	40	80	Test 1
+398	Staraptor	Normal	Flying	Test 2	870	85	120	70	50	60	100	Test 1
+399	Bidoof	Normal		False	469	59	45	40	35	40	31	4
+400	Bibarel	Normal	Water	Test 2	749	79	85	60	55	60	71	Test 1
+401	Kricketot	Bug		False	363	37	25	41	25	41	25	4
+402	Kricketune	Bug		Test 2	703	77	85	51	55	51	65	Test 1
+403	Shinx	Electric		False	481	45	65	34	40	34	45	4
+404	Luxio	Electric		Test 2	666	60	85	49	60	49	60	Test 1
+405	Luxray	Electric		Test 2	976	80	120	79	95	79	70	Test 1
+406	Budew	Grass	Poison	Test 2	505	40	30	35	50	70	55	Test 1
+407	Roserade	Grass	Poison	Test 2	940	60	70	65	125	105	90	Test 1
+408	Cranidos	Rock		Test 2	642	67	125	40	30	30	58	Test 1
+409	Rampardos	Rock		Test 2	932	97	165	60	65	50	58	Test 1
+410	Shieldon	Rock	Steel	Test 2	670	30	42	118	42	88	30	Test 1
+411	Bastiodon	Rock	Steel	Test 2	960	60	52	168	47	138	30	Test 1
+412	Burmy	Bug		False	412	40	29	45	29	45	36	4
+413	WormadamPlant Cloak	Bug	Grass	Test 2	812	60	59	85	79	105	36	Test 1
+413	WormadamSandy Cloak	Bug	Ground	Test 2	812	60	79	105	59	85	36	Test 1
+413	WormadamTrash Cloak	Bug	Steel	Test 2	812	60	69	95	69	95	36	Test 1
+414	Mothim	Bug	Flying	Test 2	782	70	94	50	94	50	66	Test 1
+415	Combee	Bug	Flying	False	418	30	30	42	30	42	70	4
+416	Vespiquen	Bug	Flying	Test 2	908	70	80	102	80	102	40	Test 1
+417	Pachirisu	Electric		Test 2	715	60	45	70	45	90	95	Test 1
+418	Buizel	Water		Test 2	575	55	65	35	60	30	85	Test 1
+419	Floatzel	Water		Test 2	875	85	105	55	85	50	115	Test 1
+420	Cherubi	Grass		Test 2	515	45	35	45	62	53	35	Test 1
+421	Cherrim	Grass		Test 2	815	70	60	70	87	78	85	Test 1
+422	Shellos	Water		Test 2	616	76	48	48	57	62	34	Test 1
+423	Gastrodon	Water	Ground	Test 2	911	111	83	68	92	82	39	Test 1
+424	Ambipom	Normal		Test 2	849	75	100	66	60	66	115	Test 1
+425	Drifloon	Ghost	Flying	Test 2	626	90	50	34	60	44	70	Test 1
+426	Drifblim	Ghost	Flying	Test 2	916	150	80	44	90	54	80	Test 1
+427	Buneary	Normal		Test 2	615	55	66	44	44	56	85	Test 1
+428	Lopunny	Normal		Test 2	855	65	76	84	54	96	105	Test 1
+428	LopunnyMega Lopunny	Normal	Fighting	Test 2	1025	65	136	94	54	96	135	Test 1
+429	Mismagius	Ghost		Test 2	885	60	60	60	105	105	105	Test 1
+430	Honchkrow	Dark	Flying	Test 2	939	100	125	52	105	52	71	Test 1
+431	Glameow	Normal		Test 2	535	49	55	42	42	37	85	Test 1
+432	Purugly	Normal		Test 2	792	71	82	64	64	59	112	Test 1
+433	Chingling	Psychic		Test 2	525	45	30	50	65	50	45	Test 1
+434	Stunky	Poison	Dark	Test 2	584	63	63	47	41	41	74	Test 1
+435	Skuntank	Poison	Dark	Test 2	874	103	93	67	71	61	84	Test 1
+436	Bronzor	Steel	Psychic	Test 2	577	57	24	86	24	86	23	Test 1
+437	Bronzong	Steel	Psychic	Test 2	967	67	89	116	79	116	33	Test 1
+438	Bonsly	Rock		Test 2	570	50	80	95	10	45	10	Test 1
+439	Mime Jr.	Psychic	Fairy	Test 2	560	20	25	45	70	90	60	Test 1
+440	Happiny	Normal		False	410	100	5	5	15	65	30	4
+441	Chatot	Normal	Flying	Test 2	731	76	65	45	92	42	91	Test 1
+442	Spiritomb	Ghost	Dark	Test 2	935	50	92	108	92	108	35	Test 1
+443	Gible	Dragon	Ground	Test 2	558	58	70	45	40	45	42	Test 1
+444	Gabite	Dragon	Ground	Test 2	738	68	90	65	50	55	82	Test 1
+445	Garchomp	Dragon	Ground	Test 2	1098	108	130	95	80	85	102	Test 1
+445	GarchompMega Garchomp	Dragon	Ground	Test 2	1308	108	170	115	120	95	92	Test 1
+446	Munchlax	Normal		Test 2	775	135	85	40	40	85	5	Test 1
+447	Riolu	Fighting		Test 2	510	40	70	40	35	40	60	Test 1
+448	Lucario	Fighting	Steel	Test 2	960	70	110	70	115	70	90	Test 1
+448	LucarioMega Lucario	Fighting	Steel	Test 2	1138	70	145	88	140	70	112	Test 1
+449	Hippopotas	Ground		Test 2	628	68	72	78	38	42	32	Test 1
+450	Hippowdon	Ground		Test 2	1003	108	112	118	68	72	47	Test 1
+451	Skorupi	Poison	Bug	Test 2	595	40	50	90	30	55	65	Test 1
+452	Drapion	Poison	Dark	Test 2	905	70	90	110	60	75	95	Test 1
+453	Croagunk	Poison	Fighting	Test 2	550	48	61	40	61	40	50	Test 1
+454	Toxicroak	Poison	Fighting	Test 2	895	83	106	65	86	65	85	Test 1
+455	Carnivine	Grass		Test 2	862	74	100	72	90	72	46	Test 1
+456	Finneon	Water		Test 2	594	49	49	56	49	61	66	Test 1
+457	Lumineon	Water		Test 2	829	69	69	76	69	86	91	Test 1
+458	Mantyke	Water	Flying	Test 2	640	45	20	50	60	120	50	Test 1
+459	Snover	Grass	Ice	Test 2	628	60	62	50	62	60	40	Test 1
+460	Abomasnow	Grass	Ice	Test 2	928	90	92	75	92	85	60	Test 1
+460	AbomasnowMega Abomasnow	Grass	Ice	Test 2	1158	90	132	105	132	105	30	Test 1
+461	Weavile	Dark	Ice	Test 2	895	70	120	65	45	85	125	Test 1
+462	Magnezone	Electric	Steel	Test 2	1010	70	70	115	130	90	60	Test 1
+463	Lickilicky	Normal		Test 2	980	110	85	95	80	95	50	Test 1
+464	Rhyperior	Ground	Rock	Test 2	1030	115	140	130	55	55	40	Test 1
+465	Tangrowth	Grass		Test 2	1020	100	100	125	110	50	50	Test 1
+466	Electivire	Electric		Test 2	985	75	123	67	95	85	95	Test 1
+467	Magmortar	Fire		Test 2	997	75	95	67	125	95	83	Test 1
+468	Togekiss	Fairy	Flying	Test 2	1010	85	50	95	120	115	80	Test 1
+469	Yanmega	Bug	Flying	Test 2	935	86	76	86	116	56	95	Test 1
+470	Leafeon	Grass		Test 2	955	65	110	130	60	65	95	Test 1
+471	Glaceon	Ice		Test 2	985	65	60	110	130	95	65	Test 1
+472	Gliscor	Ground	Flying	Test 2	925	75	95	125	45	75	95	Test 1
+473	Mamoswine	Ice	Ground	Test 2	980	110	130	80	70	60	80	Test 1
+474	Porygon-Z	Normal		Test 2	980	85	80	70	135	75	90	Test 1
+475	Gallade	Psychic	Fighting	Test 2	956	68	125	65	65	115	80	Test 1
+475	GalladeMega Gallade	Psychic	Fighting	Test 2	1126	68	165	95	65	115	110	Test 1
+476	Probopass	Rock	Steel	Test 2	1010	60	55	145	75	150	40	Test 1
+477	Dusknoir	Ghost		Test 2	1005	45	100	135	65	135	45	Test 1
+478	Froslass	Ice	Ghost	Test 2	850	70	80	70	80	70	110	Test 1
+479	Rotom	Electric	Ghost	Test 2	789	50	50	77	95	77	91	Test 1
+479	RotomHeat Rotom	Electric	Fire	Test 2	954	50	65	107	105	107	86	Test 1
+479	RotomWash Rotom	Electric	Water	Test 2	954	50	65	107	105	107	86	Test 1
+479	RotomFrost Rotom	Electric	Ice	Test 2	954	50	65	107	105	107	86	Test 1
+479	RotomFan Rotom	Electric	Flying	Test 2	954	50	65	107	105	107	86	Test 1
+479	RotomMow Rotom	Electric	Grass	Test 2	954	50	65	107	105	107	86	Test 1
+480	Uxie	Psychic		Test 2	1065	75	75	130	75	130	95	Test 1
+481	Mesprit	Psychic		Test 2	1080	80	105	105	105	105	80	Test 1
+482	Azelf	Psychic		Test 2	1045	75	125	70	125	70	115	Test 1
+483	Dialga	Steel	Dragon	Test 2	1270	100	120	120	150	100	90	Test 1
+484	Palkia	Water	Dragon	Test 2	1260	90	120	100	150	120	100	Test 1
+485	Heatran	Fire	Steel	Test 2	1123	91	90	106	130	106	77	Test 1
+486	Regigigas	Normal		Test 2	1240	110	160	110	80	110	100	Test 1
+487	GiratinaAltered Forme	Ghost	Dragon	Test 2	1270	150	100	120	100	120	90	Test 1
+487	GiratinaOrigin Forme	Ghost	Dragon	Test 2	1270	150	120	100	120	100	90	Test 1
+488	Cresselia	Psychic		Test 2	1115	120	70	120	75	130	85	Test 1
+489	Phione	Water		Test 2	880	80	80	80	80	80	80	Test 1
+490	Manaphy	Water		Test 2	1100	100	100	100	100	100	100	Test 1
+491	Darkrai	Dark		Test 2	1075	70	90	90	135	90	125	Test 1
+492	ShayminLand Forme	Grass		Test 2	1100	100	100	100	100	100	100	Test 1
+492	ShayminSky Forme	Grass	Flying	Test 2	1073	100	103	75	120	75	127	Test 1
+493	Arceus	Normal		Test 2	1320	120	120	120	120	120	120	Test 1
+494	Victini	Psychic	Fire	Test 2	1100	100	100	100	100	100	100	Test 1
+495	Snivy	Grass		Test 2	553	45	45	55	45	55	63	Test 1
+496	Servine	Grass		Test 2	743	60	60	75	60	75	83	Test 1
+497	Serperior	Grass		Test 2	943	75	75	95	75	95	113	Test 1
+498	Tepig	Fire		Test 2	571	65	63	45	45	45	45	Test 1
+499	Pignite	Fire	Fighting	Test 2	781	90	93	55	70	55	55	Test 1
+500	Emboar	Fire	Fighting	Test 2	991	110	123	65	100	65	65	Test 1
+501	Oshawott	Water		Test 2	571	55	55	45	63	45	45	Test 1
+502	Dewott	Water		Test 2	766	75	75	60	83	60	60	Test 1
+503	Samurott	Water		Test 2	986	95	100	85	108	70	70	Test 1
+504	Patrat	Normal		False	468	45	55	39	35	39	42	5
+505	Watchog	Normal		Test 2	763	60	85	69	60	69	77	Test 1
+506	Lillipup	Normal		False	495	45	60	45	25	45	55	5
+507	Herdier	Normal		Test 2	680	65	80	65	35	65	60	Test 1
+508	Stoutland	Normal		Test 2	920	85	110	90	45	90	80	Test 1
+509	Purrloin	Dark		False	496	41	50	37	50	37	66	5
+510	Liepard	Dark		Test 2	786	64	88	50	88	50	106	Test 1
+511	Pansage	Grass		Test 2	568	50	53	48	53	48	64	Test 1
+512	Simisage	Grass		Test 2	895	75	98	63	98	63	101	Test 1
+513	Pansear	Fire		Test 2	568	50	53	48	53	48	64	Test 1
+514	Simisear	Fire		Test 2	895	75	98	63	98	63	101	Test 1
+515	Panpour	Water		Test 2	568	50	53	48	53	48	64	Test 1
+516	Simipour	Water		Test 2	895	75	98	63	98	63	101	Test 1
+517	Munna	Psychic		Test 2	560	76	25	45	67	55	24	Test 1
+518	Musharna	Psychic		Test 2	945	116	55	85	107	95	29	Test 1
+519	Pidove	Normal	Flying	False	485	50	55	50	36	30	43	5
+520	Tranquill	Normal	Flying	Test 2	651	62	77	62	50	42	65	Test 1
+521	Unfezant	Normal	Flying	Test 2	883	80	115	80	65	55	93	Test 1
+522	Blitzle	Electric		Test 2	514	45	60	32	50	32	76	Test 1
+523	Zebstrika	Electric		Test 2	878	75	100	63	80	63	116	Test 1
+524	Roggenrola	Rock		Test 2	545	55	75	85	25	25	15	Test 1
+525	Boldore	Rock		Test 2	760	70	105	105	50	40	20	Test 1
+526	Gigalith	Rock		Test 2	1005	85	135	130	60	80	25	Test 1
+527	Woobat	Psychic	Flying	Test 2	554	55	45	43	55	43	72	Test 1
+528	Swoobat	Psychic	Flying	Test 2	736	67	57	55	77	55	114	Test 1
+529	Drilbur	Ground		Test 2	588	60	85	40	30	45	68	Test 1
+530	Excadrill	Ground	Steel	Test 2	928	110	135	60	50	65	88	Test 1
+531	Audino	Normal		Test 2	840	103	60	86	60	86	50	Test 1
+531	AudinoMega Audino	Normal	Fairy	Test 2	1040	103	60	126	80	126	50	Test 1
+532	Timburr	Fighting		Test 2	575	75	80	55	25	35	35	Test 1
+533	Gurdurr	Fighting		Test 2	770	85	105	85	40	50	40	Test 1
+534	Conkeldurr	Fighting		Test 2	965	105	140	95	55	65	45	Test 1
+535	Tympole	Water		Test 2	524	50	50	40	50	40	64	Test 1
+536	Palpitoad	Water	Ground	Test 2	699	75	65	55	65	55	69	Test 1
+537	Seismitoad	Water	Ground	Test 2	944	105	95	75	85	75	74	Test 1
+538	Throh	Fighting		Test 2	885	120	100	85	30	85	45	Test 1
+539	Sawk	Fighting		Test 2	845	75	125	75	30	75	85	Test 1
+540	Sewaddle	Bug	Grass	Test 2	578	45	53	70	40	60	42	Test 1
+541	Swadloon	Bug	Grass	Test 2	718	55	63	90	50	80	42	Test 1
+542	Leavanny	Bug	Grass	Test 2	908	75	103	80	70	80	92	Test 1
+543	Venipede	Bug	Poison	False	463	30	45	59	30	39	57	5
+544	Whirlipede	Bug	Poison	Test 2	673	40	55	99	40	79	47	Test 1
+545	Scolipede	Bug	Poison	Test 2	858	60	100	89	55	69	112	Test 1
+546	Cottonee	Grass	Fairy	False	494	40	27	60	37	50	66	5
+547	Whimsicott	Grass	Fairy	Test 2	844	60	67	85	77	75	116	Test 1
+548	Petilil	Grass		Test 2	530	45	35	50	70	50	30	Test 1
+549	Lilligant	Grass		Test 2	870	70	60	75	110	75	90	Test 1
+550	Basculin	Water		Test 2	822	70	92	65	80	55	98	Test 1
+551	Sandile	Ground	Dark	Test 2	519	50	72	35	35	35	65	Test 1
+552	Krokorok	Ground	Dark	Test 2	628	60	82	45	45	45	74	Test 1
+553	Krookodile	Ground	Dark	Test 2	946	95	117	80	65	70	92	Test 1
+554	Darumaka	Fire		Test 2	580	70	90	45	15	45	50	Test 1
+555	DarmanitanStandard Mode	Fire		Test 2	865	105	140	55	30	55	95	Test 1
+555	DarmanitanZen Mode	Fire	Psychic	Test 2	1025	105	30	105	140	105	55	Test 1
+556	Maractus	Grass		Test 2	862	75	86	67	106	67	60	Test 1
+557	Dwebble	Bug	Rock	Test 2	595	50	65	85	35	35	55	Test 1
+558	Crustle	Bug	Rock	Test 2	905	70	95	125	65	75	45	Test 1
+559	Scraggy	Dark	Fighting	Test 2	648	50	75	70	35	70	48	Test 1
+560	Scrafty	Dark	Fighting	Test 2	918	65	90	115	45	115	58	Test 1
+561	Sigilyph	Psychic	Flying	Test 2	883	72	58	80	103	80	97	Test 1
+562	Yamask	Ghost		Test 2	576	38	30	85	55	65	30	Test 1
+563	Cofagrigus	Ghost		Test 2	936	58	50	145	95	105	30	Test 1
+564	Tirtouga	Water	Rock	Test 2	688	54	78	103	53	45	22	Test 1
+565	Carracosta	Water	Rock	Test 2	958	74	108	133	83	65	32	Test 1
+566	Archen	Rock	Flying	Test 2	732	55	112	45	74	45	70	Test 1
+567	Archeops	Rock	Flying	Test 2	1024	75	140	65	112	65	110	Test 1
+568	Trubbish	Poison		Test 2	593	50	50	62	40	62	65	Test 1
+569	Garbodor	Poison		Test 2	873	80	95	82	60	82	75	Test 1
+570	Zorua	Dark		Test 2	595	40	65	40	80	40	65	Test 1
+571	Zoroark	Dark		Test 2	915	60	105	60	120	60	105	Test 1
+572	Minccino	Normal		Test 2	525	55	50	40	40	40	75	Test 1
+573	Cinccino	Normal		Test 2	825	75	95	60	65	60	115	Test 1
+574	Gothita	Psychic		Test 2	535	45	30	50	55	65	45	Test 1
+575	Gothorita	Psychic		Test 2	725	60	45	70	75	85	55	Test 1
+576	Gothitelle	Psychic		Test 2	915	70	55	95	95	110	65	Test 1
+577	Solosis	Psychic		Test 2	560	45	30	40	105	50	20	Test 1
+578	Duosion	Psychic		Test 2	710	65	40	50	125	60	30	Test 1
+579	Reuniclus	Psychic		Test 2	950	110	65	75	125	85	30	Test 1
+580	Ducklett	Water	Flying	Test 2	555	62	44	50	44	50	55	Test 1
+581	Swanna	Water	Flying	Test 2	848	75	87	63	87	63	98	Test 1
+582	Vanillite	Ice		Test 2	566	36	50	50	65	60	44	Test 1
+583	Vanillish	Ice		Test 2	731	51	65	65	80	75	59	Test 1
+584	Vanilluxe	Ice		Test 2	991	71	95	85	110	95	79	Test 1
+585	Deerling	Normal	Grass	Test 2	595	60	60	50	40	50	75	Test 1
+586	Sawsbuck	Normal	Grass	Test 2	855	80	100	70	60	70	95	Test 1
+587	Emolga	Electric	Flying	Test 2	753	55	75	60	75	60	103	Test 1
+588	Karrablast	Bug		Test 2	570	50	75	45	40	45	60	Test 1
+589	Escavalier	Bug	Steel	Test 2	970	70	135	105	60	105	20	Test 1
+590	Foongus	Grass	Poison	Test 2	573	69	55	45	55	55	15	Test 1
+591	Amoonguss	Grass	Poison	Test 2	898	114	85	70	85	80	30	Test 1
+592	Frillish	Water	Ghost	Test 2	630	55	40	50	65	85	40	Test 1
+593	Jellicent	Water	Ghost	Test 2	900	100	60	70	85	105	60	Test 1
+594	Alomomola	Water		Test 2	875	165	75	80	40	45	65	Test 1
+595	Joltik	Bug	Electric	Test 2	573	50	47	50	57	50	65	Test 1
+596	Galvantula	Bug	Electric	Test 2	836	70	77	60	97	60	108	Test 1
+597	Ferroseed	Grass	Steel	Test 2	600	44	50	91	24	86	10	Test 1
+598	Ferrothorn	Grass	Steel	Test 2	958	74	94	131	54	116	20	Test 1
+599	Klink	Steel		Test 2	570	40	55	70	45	60	30	Test 1
+600	Klang	Steel		Test 2	830	60	80	95	70	85	50	Test 1
+601	Klinklang	Steel		Test 2	950	60	100	115	70	85	90	Test 1
+602	Tynamo	Electric		False	490	35	55	40	45	40	60	5
+603	Eelektrik	Electric		Test 2	770	65	85	70	75	70	40	Test 1
+604	Eelektross	Electric		Test 2	980	85	115	80	105	80	50	Test 1
+605	Elgyem	Psychic		Test 2	640	55	55	55	85	55	30	Test 1
+606	Beheeyem	Psychic		Test 2	930	75	75	75	125	95	40	Test 1
+607	Litwick	Ghost	Fire	Test 2	530	50	30	55	65	55	20	Test 1
+608	Lampent	Ghost	Fire	Test 2	685	60	40	60	95	60	55	Test 1
+609	Chandelure	Ghost	Fire	Test 2	960	60	55	90	145	90	80	Test 1
+610	Axew	Dragon		Test 2	583	46	87	60	30	40	57	Test 1
+611	Fraxure	Dragon		Test 2	753	66	117	70	40	50	67	Test 1
+612	Haxorus	Dragon		Test 2	983	76	147	90	60	70	97	Test 1
+613	Cubchoo	Ice		Test 2	570	55	70	40	60	40	40	Test 1
+614	Beartic	Ice		Test 2	920	95	110	80	70	80	50	Test 1
+615	Cryogonal	Ice		Test 2	865	70	50	30	95	135	105	Test 1
+616	Shelmet	Bug		Test 2	585	50	40	85	40	65	25	Test 1
+617	Accelgor	Bug		Test 2	845	80	70	40	100	60	145	Test 1
+618	Stunfisk	Ground	Electric	Test 2	910	109	66	84	81	99	32	Test 1
+619	Mienfoo	Fighting		Test 2	635	45	85	50	55	50	65	Test 1
+620	Mienshao	Fighting		Test 2	915	65	125	60	95	60	105	Test 1
+621	Druddigon	Dragon		Test 2	922	77	120	90	60	90	48	Test 1
+622	Golett	Ground	Ghost	Test 2	571	59	74	50	35	50	35	Test 1
+623	Golurk	Ground	Ghost	Test 2	911	89	124	80	55	80	55	Test 1
+624	Pawniard	Dark	Steel	Test 2	620	45	85	70	40	40	60	Test 1
+625	Bisharp	Dark	Steel	Test 2	910	65	125	100	60	70	70	Test 1
+626	Bouffalant	Normal		Test 2	925	95	110	95	40	95	55	Test 1
+627	Rufflet	Normal	Flying	Test 2	640	70	83	50	37	50	60	Test 1
+628	Braviary	Normal	Flying	Test 2	940	100	123	75	57	75	80	Test 1
+629	Vullaby	Dark	Flying	Test 2	680	70	55	75	45	65	60	Test 1
+630	Mandibuzz	Dark	Flying	Test 2	940	110	65	105	55	95	80	Test 1
+631	Heatmor	Fire		Test 2	903	85	97	66	105	66	65	Test 1
+632	Durant	Bug	Steel	Test 2	859	58	109	112	48	48	109	Test 1
+633	Deino	Dark	Dragon	Test 2	562	52	65	50	45	50	38	Test 1
+634	Zweilous	Dark	Dragon	Test 2	782	72	85	70	65	70	58	Test 1
+635	Hydreigon	Dark	Dragon	Test 2	1102	92	105	90	125	90	98	Test 1
+636	Larvesta	Bug	Fire	Test 2	660	55	85	55	50	55	60	Test 1
+637	Volcarona	Bug	Fire	Test 2	1000	85	60	65	135	105	100	Test 1
+638	Cobalion	Steel	Fighting	Test 2	1052	91	90	129	90	72	108	Test 1
+639	Terrakion	Rock	Fighting	Test 2	1052	91	129	90	72	90	108	Test 1
+640	Virizion	Grass	Fighting	Test 2	1052	91	90	72	90	129	108	Test 1
+641	TornadusIncarnate Forme	Flying		Test 2	1049	79	115	70	125	80	111	Test 1
+641	TornadusTherian Forme	Flying		Test 2	1039	79	100	80	110	90	121	Test 1
+642	ThundurusIncarnate Forme	Electric	Flying	Test 2	1049	79	115	70	125	80	111	Test 1
+642	ThundurusTherian Forme	Electric	Flying	Test 2	1059	79	105	70	145	80	101	Test 1
+643	Reshiram	Dragon	Fire	Test 2	1270	100	120	100	150	120	90	Test 1
+644	Zekrom	Dragon	Electric	Test 2	1270	100	150	120	120	100	90	Test 1
+645	LandorusIncarnate Forme	Ground	Flying	Test 2	1099	89	125	90	115	80	101	Test 1
+645	LandorusTherian Forme	Ground	Flying	Test 2	1109	89	145	90	105	80	91	Test 1
+646	Kyurem	Dragon	Ice	Test 2	1225	125	130	90	130	90	95	Test 1
+646	KyuremBlack Kyurem	Dragon	Ice	Test 2	1305	125	170	100	120	90	95	Test 1
+646	KyuremWhite Kyurem	Dragon	Ice	Test 2	1305	125	120	90	170	100	95	Test 1
+647	KeldeoOrdinary Forme	Water	Fighting	Test 2	1052	91	72	90	129	90	108	Test 1
+647	KeldeoResolute Forme	Water	Fighting	Test 2	1052	91	72	90	129	90	108	Test 1
+648	MeloettaAria Forme	Normal	Psychic	Test 2	1110	100	77	77	128	128	90	Test 1
+648	MeloettaPirouette Forme	Normal	Fighting	Test 2	1072	100	128	90	77	77	128	Test 1
+649	Genesect	Bug	Steel	Test 2	1101	71	120	95	120	95	99	Test 1
+650	Chespin	Grass		Test 2	588	56	61	65	48	45	38	Test 1
+651	Quilladin	Grass		Test 2	753	61	78	95	56	58	57	Test 1
+652	Chesnaught	Grass	Fighting	Test 2	996	88	107	122	74	75	64	Test 1
+653	Fennekin	Fire		Test 2	554	40	45	40	62	60	60	Test 1
+654	Braixen	Fire		Test 2	745	59	59	58	90	70	73	Test 1
+655	Delphox	Fire	Psychic	Test 2	964	75	69	72	114	100	104	Test 1
+656	Froakie	Water		Test 2	557	41	56	40	62	44	71	Test 1
+657	Frogadier	Water		Test 2	713	54	63	52	83	56	97	Test 1
+658	Greninja	Water	Dark	Test 2	938	72	95	67	103	71	122	Test 1
+659	Bunnelby	Normal		False	417	38	36	38	32	36	57	6
+660	Diggersby	Normal	Ground	Test 2	768	85	56	77	50	77	78	Test 1
+661	Fletchling	Normal	Flying	False	494	45	50	43	40	38	62	6
+662	Fletchinder	Fire	Flying	Test 2	680	62	73	55	56	52	84	Test 1
+663	Talonflame	Fire	Flying	Test 2	872	78	81	71	74	69	126	Test 1
+664	Scatterbug	Bug		False	365	38	35	40	27	25	35	6
+665	Spewpa	Bug		False	397	45	22	60	27	30	29	6
+666	Vivillon	Bug	Flying	Test 2	733	80	52	50	90	50	89	Test 1
+667	Litleo	Fire	Normal	Test 2	666	62	50	58	73	54	72	Test 1
+668	Pyroar	Fire	Normal	Test 2	908	86	68	72	109	66	106	Test 1
+669	Flabébé	Fairy		Test 2	564	44	38	39	61	79	42	Test 1
+670	Floette	Fairy		Test 2	690	54	45	47	75	98	52	Test 1
+671	Florges	Fairy		Test 2	1029	78	65	68	112	154	75	Test 1
+672	Skiddo	Grass		Test 2	648	66	65	48	62	57	52	Test 1
+673	Gogoat	Grass		Test 2	994	123	100	62	97	81	68	Test 1
+674	Pancham	Fighting		Test 2	653	67	82	62	46	48	43	Test 1
+675	Pangoro	Fighting	Dark	Test 2	932	95	124	78	69	71	58	Test 1
+676	Furfrou	Normal		Test 2	842	75	80	60	65	90	102	Test 1
+677	Espurr	Psychic		Test 2	642	62	48	54	63	60	68	Test 1
+678	MeowsticMale	Psychic		Test 2	828	74	48	76	83	81	104	Test 1
+678	MeowsticFemale	Psychic		Test 2	828	74	48	76	83	81	104	Test 1
+679	Honedge	Steel	Ghost	Test 2	622	45	80	100	35	37	28	Test 1
+680	Doublade	Steel	Ghost	Test 2	861	59	110	150	45	49	35	Test 1
+681	AegislashBlade Forme	Steel	Ghost	Test 2	980	60	150	50	150	50	60	Test 1
+681	AegislashShield Forme	Steel	Ghost	Test 2	980	60	50	150	50	150	60	Test 1
+682	Spritzee	Fairy		Test 2	659	78	52	60	63	65	23	Test 1
+683	Aromatisse	Fairy		Test 2	895	101	72	72	99	89	29	Test 1
+684	Swirlix	Fairy		Test 2	633	62	48	66	59	57	49	Test 1
+685	Slurpuff	Fairy		Test 2	888	82	80	86	85	75	72	Test 1
+686	Inkay	Dark	Psychic	Test 2	531	53	54	53	37	46	45	Test 1
+687	Malamar	Dark	Psychic	Test 2	891	86	92	88	68	75	73	Test 1
+688	Binacle	Rock	Water	Test 2	562	42	52	67	39	56	50	Test 1
+689	Barbaracle	Rock	Water	Test 2	932	72	105	115	54	86	68	Test 1
+690	Skrelp	Poison	Water	Test 2	610	50	60	60	60	60	30	Test 1
+691	Dragalge	Poison	Dragon	Test 2	944	65	75	90	97	123	44	Test 1
+692	Clauncher	Water		Test 2	616	50	53	62	58	63	44	Test 1
+693	Clawitzer	Water		Test 2	941	71	73	88	120	89	59	Test 1
+694	Helioptile	Electric	Normal	Test 2	508	44	38	33	61	43	70	Test 1
+695	Heliolisk	Electric	Normal	Test 2	853	62	55	52	109	94	109	Test 1
+696	Tyrunt	Rock	Dragon	Test 2	676	58	89	77	45	45	48	Test 1
+697	Tyrantrum	Rock	Dragon	Test 2	971	82	121	119	69	59	71	Test 1
+698	Amaura	Rock	Ice	Test 2	678	77	59	50	67	63	46	Test 1
+699	Aurorus	Rock	Ice	Test 2	984	123	77	72	99	92	58	Test 1
+700	Sylveon	Fairy		Test 2	990	95	65	65	110	130	60	Test 1
+701	Hawlucha	Fighting	Flying	Test 2	882	78	92	75	74	63	118	Test 1
+702	Dedenne	Electric	Fairy	Test 2	761	67	58	57	81	67	101	Test 1
+703	Carbink	Rock	Fairy	Test 2	950	50	50	150	50	150	50	Test 1
+704	Goomy	Dragon		Test 2	560	45	50	35	55	75	40	Test 1
+705	Sliggoo	Dragon		Test 2	844	68	75	53	83	113	60	Test 1
+706	Goodra	Dragon		Test 2	1120	90	100	70	110	150	80	Test 1
+707	Klefki	Steel	Fairy	Test 2	865	57	80	91	80	87	75	Test 1
+708	Phantump	Ghost	Grass	Test 2	580	43	70	48	50	60	38	Test 1
+709	Trevenant	Ghost	Grass	Test 2	892	85	110	76	65	82	56	Test 1
+710	PumpkabooAverage Size	Ghost	Grass	Test 2	619	49	66	70	44	55	51	Test 1
+710	PumpkabooSmall Size	Ghost	Grass	Test 2	614	44	66	70	44	55	56	Test 1
+710	PumpkabooLarge Size	Ghost	Grass	Test 2	624	54	66	70	44	55	46	Test 1
+710	PumpkabooSuper Size	Ghost	Grass	Test 2	629	59	66	70	44	55	41	Test 1
+711	GourgeistAverage Size	Ghost	Grass	Test 2	904	65	90	122	58	75	84	Test 1
+711	GourgeistSmall Size	Ghost	Grass	Test 2	889	55	85	122	58	75	99	Test 1
+711	GourgeistLarge Size	Ghost	Grass	Test 2	919	75	95	122	58	75	69	Test 1
+711	GourgeistSuper Size	Ghost	Grass	Test 2	934	85	100	122	58	75	54	Test 1
+712	Bergmite	Ice		Test 2	580	55	69	85	32	35	28	Test 1
+713	Avalugg	Ice		Test 2	1000	95	117	184	44	46	28	Test 1
+714	Noibat	Flying	Dragon	False	435	40	30	35	45	40	55	6
+715	Noivern	Flying	Dragon	Test 2	947	85	70	80	97	80	123	Test 1
+716	Xerneas	Fairy		Test 2	1261	126	131	95	131	98	99	Test 1
+717	Yveltal	Dark	Flying	Test 2	1261	126	131	95	131	98	99	Test 1
+718	Zygarde50% Forme	Dragon	Ground	Test 2	1105	108	100	121	81	95	95	Test 1
+719	Diancie	Rock	Fairy	Test 2	1150	50	100	150	100	150	50	Test 1
+719	DiancieMega Diancie	Rock	Fairy	Test 2	1290	50	160	110	160	110	110	Test 1
+720	HoopaHoopa Confined	Psychic	Ghost	Test 2	1130	80	110	60	150	130	70	Test 1
+720	HoopaHoopa Unbound	Psychic	Dark	Test 2	1280	80	160	60	170	130	80	Test 1
+721	Volcanion	Fire	Water	Test 2	1130	80	110	120	130	90	70	Test 1
