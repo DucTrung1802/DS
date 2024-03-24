@@ -1,17 +1,17 @@
 # 1
 # Số chính trị gia chuyển đảng trong khoảng thời gian
-# từ năm 1802 - 1876 là một con số không có chặn trên
+# từ năm 1802 - 1876 là một con số đếm không có chặn trên
 # nên mô hình GLM Poisson sẽ là mô hình phù hợp.
 
 # 2
 # Hệ số của biến giải thích cho biết năm đó có phải là
 # năm bầu cử hay không (được mã hóa là 0 cho các năm bầu
 # cử và 1 cho các năm không bầu cử) là 1,051 cho thấy
-# rằng, tính trung bình, giá trị log của muy tăng 1.051
-# đơn vị nếu năm đó là năm không bầu cửa, giữ nguyên các
-# tham số khác. Điều này ngụ ý rằng những năm không bầu
-# cử có liên quan đến khả năng các chính trị gia chuyển
-# đảng cao hơn so với những năm bầu cử.
+# rằng, tính trung bình, giá trị log của muy tăng 1.051,
+# nghĩa là
+# (khả năng có chính trị gia chuyển đảng cao hơn 
+# exp(1.051) = 2.86 lần) nếu năm đó là năm không bầu cửa,
+# giữ nguyên các tham số khác.
 
 # 3
 # Để kiểm tra ý nghĩa thống kê của hệ số cho biến giải
