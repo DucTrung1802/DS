@@ -7,7 +7,7 @@ import numpy as np
 PROJECT_ID = "cosmic-ascent-418910"
 ENDPOINT_ID = "2492781976168169472"
 REGION = "asia-east2"
-IMG_FILE = "data\\testSample\img_1.jpg"
+IMG_FILE = "data\\testSample\img_344.jpg"
 
 # Define the possible classes (numbers 0 to 9)
 number_class = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
