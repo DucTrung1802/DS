@@ -1,19 +1,23 @@
 import os
 import tensorflow as tf
 from google.cloud import aiplatform
+import numpy as np
 
-# TODO
-PROJECT_NUMBER = "12345678999"
+# Define constants
+PROJECT_ID = "cosmic-ascent-418910"
 ENDPOINT_ID = "2492781976168169472"
+REGION = "asia-east2"
 IMG_FILE = "data\\testSample\img_1.jpg"
 
 # Define the possible classes (numbers 0 to 9)
-number_class = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+number_class = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+
 
 def get_num_class(probability_result):
     """Returns the class with the highest probability."""
     # Use argmax to find the index of the maximum probability
     return number_class[tf.argmax(probability_result[0])]
+
 
 def resizing_img(img):
     """Preprocesses and resizes the input image for model prediction."""
@@ -24,13 +28,15 @@ def resizing_img(img):
     img = tf.expand_dims(img, axis=0)
     return img
 
-def predict_custom_trained_model(instances, project_number, endpoint_id):
+
+def predict_custom_trained_model(instances, project_number, region, endpoint_id):
     """Uses Vertex AI endpoint to make predictions."""
     endpoint = aiplatform.Endpoint(
-        endpoint_name=f"projects/{project_number}/locations/us-central1/endpoints/{endpoint_id}"
+        endpoint_name=f"projects/{project_number}/locations/{region}/endpoints/{endpoint_id}"
     )
     result = endpoint.predict(instances=[instances])
     return result.predictions
+
 
 # Read image and convert to bytes
 cwd = os.path.abspath(os.path.dirname(__file__))
@@ -46,7 +52,8 @@ img_as_list = img.numpy().tolist()
 # Make predictions using the custom trained model
 prediction_result = predict_custom_trained_model(
     instances=img_as_list,
-    project_number=PROJECT_NUMBER,
+    project_number=PROJECT_ID,
+    region=REGION,
     endpoint_id=ENDPOINT_ID,
 )
 
