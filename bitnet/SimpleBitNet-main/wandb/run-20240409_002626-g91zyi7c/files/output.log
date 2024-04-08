@@ -1,0 +1,99 @@
+  | Name  | Type       | Params
+-------------------------------------
+0 | model | Sequential | 101 K
+-------------------------------------
+101 K     Trainable params
+0         Non-trainable params
+101 K     Total params
+0.408     Total estimated model params size (MB)
+C:\Python\Python_3.10\lib\site-packages\lightning\pytorch\trainer\connectors\data_connector.py:441: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=19` in the `DataLoader` to improve performance.
+C:\Python\Python_3.10\lib\site-packages\lightning\pytorch\trainer\connectors\data_connector.py:441: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=19` in the `DataLoader` to improve performance.
+
+Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████| 469/469 [00:06<00:00, 77.91it/s, v_num=yi7c, tl=0.395, ta=0.917]
+
+
+
+
+
+Epoch 1: 100%|███████████████████████| 469/469 [00:09<00:00, 48.35it/s, v_num=yi7c, tl=0.287, ta=0.948, vl_step=0.344, va_step=0.750, vl_epoch=0.452, va_epoch=0.866]
+
+
+
+
+
+
+
+
+
+Epoch 2: 100%|███████████████████████| 469/469 [00:17<00:00, 26.17it/s, v_num=yi7c, tl=0.260, ta=0.969, vl_step=0.104, va_step=1.000, vl_epoch=0.301, va_epoch=0.913]
+
+
+
+
+
+
+
+
+
+
+
+Epoch 3: 100%|██████████████████████| 469/469 [00:21<00:00, 21.42it/s, v_num=yi7c, tl=0.239, ta=0.979, vl_step=0.0526, va_step=1.000, vl_epoch=0.245, va_epoch=0.927]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 5: 100%|██████████████████████| 469/469 [00:19<00:00, 24.61it/s, v_num=yi7c, tl=0.206, ta=0.979, vl_step=0.0106, va_step=1.000, vl_epoch=0.175, va_epoch=0.948]
+
+
+
+
+
+
+
+
+
+
+Epoch 6: 100%|█████████████████████| 469/469 [00:20<00:00, 23.32it/s, v_num=yi7c, tl=0.187, ta=0.979, vl_step=0.00633, va_step=1.000, vl_epoch=0.161, va_epoch=0.951]
+
+
+
+
+
+
+
+
+
+
+Epoch 7: 100%|█████████████████████| 469/469 [00:19<00:00, 23.72it/s, v_num=yi7c, tl=0.177, ta=0.979, vl_step=0.00429, va_step=1.000, vl_epoch=0.152, va_epoch=0.954]
+
+
+
+
+
+
+
+
+
+Epoch 8: 100%|█████████████████████| 469/469 [00:18<00:00, 25.94it/s, v_num=yi7c, tl=0.164, ta=0.979, vl_step=0.00445, va_step=1.000, vl_epoch=0.143, va_epoch=0.957]
+
+
+
+Epoch 9: 100%|█████████████████████| 469/469 [00:07<00:00, 64.84it/s, v_num=yi7c, tl=0.154, ta=0.979, vl_step=0.00502, va_step=1.000, vl_epoch=0.136, va_epoch=0.958]
+Validation DataLoader 0:  44%|█████████████████████████████████████████████▏                                                        | 35/79 [00:00<00:00, 102.43it/s]
+

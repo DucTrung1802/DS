@@ -1,0 +1,127 @@
+
+Epoch 0:  22%|██████████████████▎                                                                 | 102/469 [00:01<00:06, 53.22it/s, v_num=5tx0, tl=2.240, ta=0.0781]
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+  | Name  | Type       | Params
+-------------------------------------
+0 | model | Sequential | 101 K
+-------------------------------------
+101 K     Trainable params
+0         Non-trainable params
+101 K     Total params
+0.408     Total estimated model params size (MB)
+C:\Python\Python_3.10\lib\site-packages\lightning\pytorch\trainer\connectors\data_connector.py:441: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=19` in the `DataLoader` to improve performance.
+
+
+
+Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████| 469/469 [00:10<00:00, 45.67it/s, v_num=5tx0, tl=1.760, ta=0.469]
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1: 100%|███████████████████████| 469/469 [00:21<00:00, 22.17it/s, v_num=5tx0, tl=1.090, ta=0.698, vl_step=1.500, va_step=0.375, vl_epoch=1.680, va_epoch=0.487]
+
+
+
+
+
+
+
+
+
+
+
+Epoch 2: 100%|███████████████████████| 469/469 [00:20<00:00, 22.44it/s, v_num=5tx0, tl=0.657, ta=0.844, vl_step=0.923, va_step=0.688, vl_epoch=1.070, va_epoch=0.642]
+
+
+
+
+
+
+
+
+
+
+
+Epoch 3: 100%|███████████████████████| 469/469 [00:21<00:00, 21.72it/s, v_num=5tx0, tl=0.507, ta=0.875, vl_step=0.690, va_step=0.625, vl_epoch=0.726, va_epoch=0.766]
+
+
+
+
+
+
+
+
+
+
+Epoch 4: 100%|███████████████████████| 469/469 [00:20<00:00, 23.32it/s, v_num=5tx0, tl=0.442, ta=0.917, vl_step=0.608, va_step=0.625, vl_epoch=0.615, va_epoch=0.802]
+
+
+
+
+
+
+
+
+
+
+
+Epoch 5: 100%|███████████████████████| 469/469 [00:20<00:00, 22.88it/s, v_num=5tx0, tl=0.397, ta=0.917, vl_step=0.530, va_step=0.625, vl_epoch=0.551, va_epoch=0.827]
+
+
+
+
+
+
+
+
+
+
+Epoch 6: 100%|███████████████████████| 469/469 [00:21<00:00, 22.33it/s, v_num=5tx0, tl=0.364, ta=0.948, vl_step=0.443, va_step=0.750, vl_epoch=0.497, va_epoch=0.850]
+
+
+
+
+
+
+
+
+
+
+Epoch 7: 100%|███████████████████████| 469/469 [00:19<00:00, 24.42it/s, v_num=5tx0, tl=0.340, ta=0.927, vl_step=0.373, va_step=0.812, vl_epoch=0.448, va_epoch=0.873]
+
+
+
+
+
+
+
+
+
+
+
+Epoch 8: 100%|███████████████████████| 469/469 [00:20<00:00, 23.07it/s, v_num=5tx0, tl=0.315, ta=0.938, vl_step=0.305, va_step=0.812, vl_epoch=0.401, va_epoch=0.892]
+
+
+
+
+
+
+
+
+
+
+Epoch 9: 100%|███████████████████████| 469/469 [00:20<00:00, 22.78it/s, v_num=5tx0, tl=0.299, ta=0.927, vl_step=0.264, va_step=0.938, vl_epoch=0.361, va_epoch=0.904]
+
+
+`Trainer.fit` stopped: `max_epochs=10` reached.

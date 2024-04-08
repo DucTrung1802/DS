@@ -1,0 +1,60 @@
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+  | Name  | Type       | Params
+-------------------------------------
+0 | model | Sequential | 101 K
+-------------------------------------
+101 K     Trainable params
+0         Non-trainable params
+101 K     Total params
+0.408     Total estimated model params size (MB)
+C:\Python\Python_3.10\lib\site-packages\lightning\pytorch\trainer\connectors\data_connector.py:441: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=19` in the `DataLoader` to improve performance.
+C:\Python\Python_3.10\lib\site-packages\lightning\pytorch\trainer\connectors\data_connector.py:441: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=19` in the `DataLoader` to improve performance.
+
+
+Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████| 469/469 [00:07<00:00, 62.92it/s, v_num=7xue, tl=1.560, ta=0.656]
+
+
+
+Epoch 1: 100%|███████████████████████| 469/469 [00:07<00:00, 63.66it/s, v_num=7xue, tl=0.913, ta=0.823, vl_step=1.240, va_step=0.688, vl_epoch=1.390, va_epoch=0.597]
+
+
+
+
+
+
+
+
+Epoch 3: 100%|███████████████████████| 469/469 [00:08<00:00, 57.98it/s, v_num=7xue, tl=0.556, ta=0.854, vl_step=0.335, va_step=0.938, vl_epoch=0.521, va_epoch=0.858]
+
+
+
+Epoch 4: 100%|███████████████████████| 469/469 [00:08<00:00, 56.97it/s, v_num=7xue, tl=0.497, ta=0.865, vl_step=0.256, va_step=0.938, vl_epoch=0.442, va_epoch=0.877]
+
+
+
+
+Epoch 5: 100%|███████████████████████| 469/469 [00:08<00:00, 56.30it/s, v_num=7xue, tl=0.457, ta=0.885, vl_step=0.211, va_step=0.938, vl_epoch=0.397, va_epoch=0.886]
+
+
+
+
+
+Epoch 6: 100%|███████████████████████| 469/469 [00:11<00:00, 40.81it/s, v_num=7xue, tl=0.428, ta=0.885, vl_step=0.179, va_step=0.938, vl_epoch=0.366, va_epoch=0.894]
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 9: 100%|███████████████████████| 469/469 [00:07<00:00, 60.80it/s, v_num=7xue, tl=0.362, ta=0.906, vl_step=0.125, va_step=0.938, vl_epoch=0.307, va_epoch=0.911]
+Validation DataLoader 0:  41%|█████████████████████████████████████████▋                                                             | 32/79 [00:00<00:00, 87.17it/s]
+

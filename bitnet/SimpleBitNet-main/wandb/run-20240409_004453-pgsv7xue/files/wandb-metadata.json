@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.10.11",
+    "heartbeatAt": "2024-04-08T17:44:55.084677",
+    "startedAt": "2024-04-08T17:44:53.726825",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "d:\\DATA SCIENCE\\GIT\\DS\\bitnet\\SimpleBitNet-main\\toy_linear_nn.py",
+    "codePathLocal": "toy_linear_nn.py",
+    "codePath": "bitnet\\SimpleBitNet-main\\toy_linear_nn.py",
+    "git": {
+        "remote": "https://github.com/DucTrung1802/DS.git",
+        "commit": "d7cd8d372310a888589965b9098c09925476246e"
+    },
+    "email": "trung.lyduc18@gmail.com",
+    "root": "D:/DATA SCIENCE/GIT/DS",
+    "host": "DESKTOP-VDUD145",
+    "username": "lyduc",
+    "executable": "C:\\Python\\Python_3.10\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2300.0,
+        "min": 0.0,
+        "max": 2300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2300.0,
+            "min": 0.0,
+            "max": 2300.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 299.99999618530273,
+            "used": 189.72291946411133
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.629837036132812
+    }
+}
