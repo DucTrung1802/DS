@@ -1,6 +1,7 @@
 from memory_profiler import profile
 import PIL.Image
-
+from enum import Enum
+import torch
 from carvekit.api.interface import Interface
 from carvekit.ml.wrap.fba_matting import FBAMatting
 from carvekit.ml.wrap.tracer_b7 import TracerUniversalB7
@@ -14,102 +15,57 @@ from quant_linear import (
 )
 
 
+class SELCECTION(Enum):
+    NORMAL_MODEL = "_norm"
+    HALF = "_half"
+    _8_BIT = "_8_bit"
+    ONE_BIT = "one_bit"
+    TWO_BIT = "two_bit"
+
+
 # SETTING AREA ===============================================
 
 INPUT_IMAGE_PATH = "car_1.jpg"
 
-# ============================================================
-
-
 OUTPUT_IMAGE_EXTENSION = ".png"
 OUTPUT_NORM_IMAGE_NAME = (
-    INPUT_IMAGE_PATH.split(".")[0] + "_norm" + OUTPUT_IMAGE_EXTENSION
+    INPUT_IMAGE_PATH.split(".")[0]
+    + SELCECTION.NORMAL_MODEL.value
+    + OUTPUT_IMAGE_EXTENSION
+)
+OUTPUT_8_BIT_NAME = (
+    INPUT_IMAGE_PATH.split(".")[0] + SELCECTION._8_BIT.value + OUTPUT_IMAGE_EXTENSION
+)
+OUTPUT_HALF_NAME = (
+    INPUT_IMAGE_PATH.split(".")[0] + SELCECTION.HALF.value + OUTPUT_IMAGE_EXTENSION
 )
 OUTPUT_ONE_BIT_NAME = (
-    INPUT_IMAGE_PATH.split(".")[0] + "_one_bit" + OUTPUT_IMAGE_EXTENSION
+    INPUT_IMAGE_PATH.split(".")[0] + SELCECTION.ONE_BIT.value + OUTPUT_IMAGE_EXTENSION
 )
 OUTPUT_TWO_BIT_NAME = (
-    INPUT_IMAGE_PATH.split(".")[0] + "_two_bit" + OUTPUT_IMAGE_EXTENSION
-)
-
-NORMAL_FBA = FBAMatting(device="cpu", input_tensor_size=2048, batch_size=1)
-
-NORMAL_SEG_NET = TracerUniversalB7(device="cpu", batch_size=1)
-
-ONE_BIT_FBA = create_quantized_copy_of_model(
-    NORMAL_FBA, quantization_mode=QuantizationMode.one_bit
-)
-
-ONE_BIT_SEG_NET = create_quantized_copy_of_model(
-    NORMAL_SEG_NET, quantization_mode=QuantizationMode.one_bit
-)
-
-
-TWO_BIT_FBA = create_quantized_copy_of_model(
-    NORMAL_FBA, quantization_mode=QuantizationMode.two_bit
-)
-
-TWO_BIT_SEG_NET = create_quantized_copy_of_model(
-    NORMAL_SEG_NET, quantization_mode=QuantizationMode.two_bit
+    INPUT_IMAGE_PATH.split(".")[0] + SELCECTION.TWO_BIT.value + OUTPUT_IMAGE_EXTENSION
 )
 
 
 @profile
-def normal_implement_test(input_image_path, output_file_path):
+def implement_test(selection: SELCECTION):
+    match selection:
+        case SELCECTION.NORMAL_MODEL:
+            fba_model = torch.load()
 
     trimap = TrimapGenerator()
 
     preprocessing = PreprocessingStub()
 
     postprocessing = MattingMethod(
-        matting_module=NORMAL_FBA, trimap_generator=trimap, device="cpu"
+        matting_module=fba_model, trimap_generator=trimap, device="cpu"
     )
 
     interface = Interface(
-        pre_pipe=preprocessing, post_pipe=postprocessing, seg_pipe=NORMAL_SEG_NET
+        pre_pipe=preprocessing, post_pipe=postprocessing, seg_pipe=seg_net_model
     )
 
-    image = PIL.Image.open(input_image_path)
-    cat_wo_bg = interface([image])[0]
-    cat_wo_bg.save(output_file_path)
-
-
-@profile
-def one_bit_implement_test(input_image_path, output_file_path):
-
-    trimap = TrimapGenerator()
-
-    preprocessing = PreprocessingStub()
-
-    postprocessing = MattingMethod(
-        matting_module=ONE_BIT_FBA, trimap_generator=trimap, device="cpu"
-    )
-
-    interface = Interface(
-        pre_pipe=preprocessing, post_pipe=postprocessing, seg_pipe=ONE_BIT_SEG_NET
-    )
-
-    image = PIL.Image.open(input_image_path)
-    cat_wo_bg = interface([image])[0]
-    cat_wo_bg.save(output_file_path)
-
-
-@profile
-def two_bit_implement_test(input_image_path, output_file_path):
-
-    trimap = TrimapGenerator()
-
-    preprocessing = PreprocessingStub()
-
-    postprocessing = MattingMethod(
-        matting_module=TWO_BIT_FBA, trimap_generator=trimap, device="cpu"
-    )
-
-    interface = Interface(
-        pre_pipe=preprocessing, post_pipe=postprocessing, seg_pipe=TWO_BIT_SEG_NET
-    )
-
-    image = PIL.Image.open(input_image_path)
+    image = PIL.Image.open(INPUT_IMAGE_PATH)
     cat_wo_bg = interface([image])[0]
     cat_wo_bg.save(output_file_path)
 
@@ -117,26 +73,50 @@ def two_bit_implement_test(input_image_path, output_file_path):
 def main():
     # Check doc strings for more information
 
-    # print("NORMAL MODEL")
-    # # Normal model
-    # normal_implement_test(
-    #     input_image_path=INPUT_IMAGE_PATH,
-    #     output_file_path=OUTPUT_NORM_IMAGE_NAME,
+    FBA_PATH = "./models/FBA_NORMAL"
+
+    SEG_NET_PATH = "./models/SEG_NET_NORMAL"
+
+    NORMAL_FBA = FBAMatting(device="cpu", input_tensor_size=2048, batch_size=1)
+
+    NORMAL_SEG_NET = TracerUniversalB7(device="cpu", batch_size=1)
+
+    torch.save(NORMAL_FBA, FBA_PATH)
+
+    torch.save(NORMAL_SEG_NET, SEG_NET_PATH)
+
+    del NORMAL_FBA
+    del NORMAL_SEG_NET
+
+    NORMAL_FBA = torch.load(FBA_PATH)
+
+    NORMAL_SEG_NET = torch.load(SEG_NET_PATH)
+
+    print("NORMAL MODEL")
+    # Normal model
+    implement_test(
+        fba_model=NORMAL_FBA,
+        seg_net_model=NORMAL_SEG_NET,
+        output_file_path=OUTPUT_NORM_IMAGE_NAME,
+    )
+
+    # # 8-bit quantized model
+    # print("8-BIT MODEL")
+    # quantized_implement_test(
+    #     output_file_path=OUTPUT_8_BIT_NAME,
     # )
 
     # # one-bit quantized model
     # print("ONE-BIT MODEL")
     # one_bit_implement_test(
-    #     input_image_path=INPUT_IMAGE_PATH,
     #     output_file_path=OUTPUT_ONE_BIT_NAME,
     # )
 
-    # two-bit quantized model
-    print("TWO-BIT MODEL")
-    two_bit_implement_test(
-        input_image_path=INPUT_IMAGE_PATH,
-        output_file_path=OUTPUT_TWO_BIT_NAME,
-    )
+    # # two-bit quantized model
+    # print("TWO-BIT MODEL")
+    # two_bit_implement_test(
+    #     output_file_path=OUTPUT_TWO_BIT_NAME,
+    # )
 
 
 if __name__ == "__main__":
