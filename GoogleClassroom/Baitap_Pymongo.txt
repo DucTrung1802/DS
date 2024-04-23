@@ -1,0 +1,72 @@
+* Data: restaurants.json
+- Mỗi phần tử là một đối tượng json chứa thông tin về một nhà hàng, bao gồm địa chỉ, quận, loại hình ẩm thực, danh sách các đánh giá, tên nhà hàng, id. (vd ở dưới ạ)
+
+* Các bạn có thể import restaurants.json vào database của mình hoặc kết nối đến MongoDB Atlas đã được import sẵn 
+<username>:qh2023 
+<password>:1
+(database: mongodb_demo, collection: collection_demo2)
+- Trong Colab:
+!pip install pymongo
+
+from pymongo.mongo_client import MongoClient
+uri = "mongodb+srv://qh2023:1@clusterbegin0.iojcaoc.mongodb.net/?retryWrites=true&w=majority&appName=ClusterBegin0"
+# Create a new client and connect to the server
+client = MongoClient(uri)
+# Send a ping to confirm a successful connection
+try:
+    client.admin.command('ping')
+    print("Pinged your deployment. You successfully connected to MongoDB!")
+except Exception as e:
+    print(e)
+
+*Bài tập
+- Bài 1: Tìm id, tên và số lượt đánh giá của nhà hàng có nhiều lượt đánh giá nhất
+- Bài 2: Tìm tổng số các nhà hàng có ít nhất 1 điểm đánh giá dưới 5, nằm ở Manhattan hoặc Brooklyn, và loại hình ẩm thực không phải là American hoặc Chinese
+- Bài 3: Trả về kết quả theo thứ tự Tên nhà hàng, Tên phố, Tên quận, Điểm trung bình của nhà hàng có điểm trung bình đánh giá cao nhất và trong loại hình ẩm thực của nó có chứa từ 'Pizza' (không phân biệt hoa thường)
+
+
+
+
+{
+    "address": {
+        "building": "1007",
+        "coord": [-73.856077, 40.848447],
+        "street": "Morris Park Ave",
+        "zipcode": "10462"
+    },
+    "borough": "Bronx",
+    "cuisine": "Bakery",
+    "grades": [{
+        "date": {
+            "$date": 1393804800000
+        },
+        "grade": "A",
+        "score": 2
+    }, {
+        "date": {
+            "$date": 1378857600000
+        },
+        "grade": "A",
+        "score": 6
+    }, {
+        "date": {
+            "$date": 1358985600000
+        },
+        "grade": "A",
+        "score": 10
+    }, {
+        "date": {
+            "$date": 1322006400000
+        },
+        "grade": "A",
+        "score": 9
+    }, {
+        "date": {
+            "$date": 1299715200000
+        },
+        "grade": "B",
+        "score": 14
+    }],
+    "name": "Morris Park Bake Shop",
+    "restaurant_id": "30075445"
+}
